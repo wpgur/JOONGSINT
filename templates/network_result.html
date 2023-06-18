@@ -85,13 +85,33 @@
     <div class="network-card">
       <h2>Whois_Info</h2>
       <div class="whois_info">
-        <p>{{ whois_info }}</p>
+        <p>
+          <strong>Domain Name:</strong> {{ whois_info['domain_name'] }}<br />
+          <strong>Whois server:</strong> {{ whois_info['whois_server'] }}<br />
+          <strong>Creation date:</strong> {{ whois_info['creation_date'] }}<br />
+          <strong>Updated date:</strong> {{ whois_info['updated_date'] }}<br />
+          <strong>Expiration date:</strong> {{ whois_info['expiration_date']
+          }}<br />
+          <strong>Name servers:</strong> {{ whois_info['name_servers'] }}<br />
+          <strong>Status:</strong> {{ whois_info['status'] }}<br />
+          <strong>Email:</strong> {{ whois_info['emails'] }}<br />
+          <strong>Name:</strong> {{ whois_info['name'] }}<br />
+          <strong>Address:</strong> {{ whois_info['address'] }}<br />
+          <strong>City:</strong> {{ whois_info['city'] }}<br />
+          <strong>Country:</strong> {{ whois_info['country'] }}<br />
+        </p>
       </div>
     </div>
     <div class="network-card">
       <h2>Nmap_Info</h2>
       <div class="nmap_info">
-        <p>{{ nmap_result }}</p>
+        <p>
+          <strong>Ip Address</strong> {{ nmap_result['ip_address'] }}<br />
+          <strong>RDNS Records</strong> {{ nmap_result['rdns_records'] }}<br />
+          <strong>Port Info</strong> {{ nmap_result['port_info'] }}<br />
+          <strong>Port Number</strong> {{ nmap_result['port_numbers'] }}<br />
+          <strong>SubDomains</strong> {{ nmap_result['subdomains'] }}<br />
+        </p>
       </div>
     </div>
     <div class="network-card">
