@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Network Module</title>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link
+      href="{{ url_for('static', filename='css/styles.css') }}"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .network-card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        padding: 20px;
+      }
+
+      h2 {
+        margin: 0 0 10px 0;
+      }
+
+      .nmap_info,
+      .whois_info,
+      .server_info,
+      .hostname,
+      .cve_info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .whois_info img,
+      .server_info img,
+      .nmap_info img,
+      .hostname img,
+      .cve_info img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+
+      p {
+        margin: 0;
+        padding: 10px;
+        text-align: left;
+        font-weight: bold;
+      }
+
+      .whois_info p,
+      .server_info p,
+      .nmap_info p,
+      .hostname p,
+      .cve_info p {
+        flex-basis: 100%;
+        text-align: left;
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Network Module</h1>
+    <div class="network-card">
+      <h2>Ip_Info</h2>
+      <div class="hostname">
+        <p>{{ ip_info }}</p>
+      </div>
+    </div>
+    <div class="network-card">
+      <h2>Whois_Info</h2>
+      <div class="whois_info">
+        <p>{{ whois_info }}</p>
+      </div>
+    </div>
+    <div class="network-card">
+      <h2>Nmap_Info</h2>
+      <div class="nmap_info">
+        <p>{{ nmap_result }}</p>
+      </div>
+    </div>
+    <div class="network-card">
+      <h2>Server_Info</h2>
+      <div class="server_info">
+        <p>{{ server_info }}</p>
+      </div>
+    </div>
+    <div class="network-card">
+      <h2>CVE_Info</h2>
+      {% for item_list in cve_info %}
+      <div class="cve_info">
+        {% for item in item_list %}
+        <p>
+          <strong>CVE ID:</strong> {{ item['CVE ID'] }}<br />
+          <strong>Description:</strong> {{ item['Description'] }}<br />
+          <strong>CVSS Score:</strong> {{ item['CVSS Score'] }}<br />
+          <strong>Category:</strong> {{ item['Category'] }}<br />
+        </p>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="container my-5">
+      <a class="container btn btn-outline-primary" href="/">돌아가기</a>
+    </div>
+  </body>
+</html>
