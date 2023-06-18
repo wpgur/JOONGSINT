@@ -8,6 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 import time
+import pandas
 
 
 network_module = Blueprint("network_module", __name__)
@@ -32,42 +33,61 @@ def network_result():
             except:
                 return (f"{self.ip}의 호스트 이름을 찾을 수 없습니다.")
 
+
+
         def get_whois_info(self):
             """
             Whois 정보 가져오기
             """
-            domain = self.target_domain.replace("www.", "")
-            whois_result = whois.whois(domain)
-            return whois_result
+            domain = self.target_domain
+            whois_result = whois.whois(f"{domain}")
+            return {
+                "domain_name": whois_result['domain_name'],
+                "whois_server":whois_result['whois_server'],
+                "creation_date":whois_result['creation_date'],
+                "updated_date":whois_result['updated_date'],
+                "expiration_date":whois_result['expiration_date'],
+                "name_servers":whois_result['name_servers'],
+                "status":whois_result['status'],
+                "emails":whois_result['emails'],
+                "name":whois_result['name'],
+                "org":whois_result['org'],
+                "address":whois_result['address'],
+                "city":whois_result['city'],
+                "country":whois_result['country'],
+
+            }
+
+
 
         def run_nmap(self):
             """
             Nmap 실행
             """
-            command = f"/Nmap/nmap -p 1-1500 --script dns-brute.nse {self.target_domain} "
-            result = subprocess.check_output(command, shell=True)
+            command = f"nmap -sS -Pn -p 1-3000 --script dns-brute.nse {self.target_domain} "
+            result = subprocess.check_output(command, shell=True, encoding='cp949')
 
             # IP 주소 추출
-            ip_address = re.search(r'Nmap scan report for .* \((\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\)', result.decode('utf-8')).group(1)
+            ip_address = re.search(r'Nmap scan report for .* \((\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\)', result).group(1)
 
             # rDNS 레코드 추출
-            rdns_record = re.search(r'rDNS record for .*: (.*)', result.decode('utf-8')).group(1)
+            rdns_record = re.search(r'rDNS record for .*: (.*)', result).group(1)
 
 
             # 포트 정보 추출
-            port_info = re.findall(r'\d+\/\w+\s+\w+\s+\w+', result.decode('utf-8'))
+            port_info = re.findall(r'\d+\/\w+\s+\w+\s+\w+', result)
             port_numbers = [line.split('/')[0] for line in port_info]
 
             # DNS 브루트포스 결과의 도메인 및 IP 주소 추출
-            dns_brute = re.findall(r'\s+\|\s+(\S+)\s+-\s+([\d:.]+)', result.decode('utf-8'))
+            dns_brute = re.findall(r'\s+\|\s+(\S+)\s+-\s+([\d:.]+)', result)
 
             # DNS 브루트포스 결과 |_가 존재하는 마지막 라인 
-            dns_brute_last = re.findall(r'\s+\|_\s+(\S+)\s+-\s+([\d:.]+)', result.decode('utf-8'))
+            dns_brute_last = re.findall(r'\s+\|_\s+(\S+)\s+-\s+([\d:.]+)', result)
             #두 리스트 합치기 
             dns_brute.extend(dns_brute_last)
 
             return {
-                "ip_addresses": ip_address,
+                "ip_address": ip_address,
                 "rdns_records": rdns_record,
                 "port_info": port_info,
                 "port_numbers": port_numbers,
@@ -97,7 +117,6 @@ def network_result():
                                     server_version = server_tag.get("content")
                                     server_info.append(server_version.split('/')[0] + '/' + server_version.split('/')[1].split()[0])                 
                 except Exception as e:
-                    #print(f"Error occurred while trying to access {self.target_domain}:{port}: {e}")
                     pass
 
             if server_info:
@@ -121,10 +140,7 @@ def network_result():
                 for result in data["result"]["CVE_Items"]:
                     cve_id = result["cve"]["CVE_data_meta"]["ID"]
                     description = result["cve"]["description"]["description_data"][0]["value"]
-                    if "baseMetricV3" in result["impact"]:
-                        cvss_score = result["impact"]["baseMetricV3"]["cvssV3"]["baseScore"]
-                    else:
-                        cvss_score = "N/A"
+                    cvss_score = result["impact"]["baseMetricV3"]["cvssV3"]["baseScore"]
                     categories = result["cve"]["problemtype"]["problemtype_data"][0]["description"][0]["value"]
                     cve_data.append({"CVE ID": cve_id, "Description": description, "CVSS Score": cvss_score, "Category": categories})
             else:
@@ -142,17 +158,12 @@ def network_result():
         ip_info='ip_info'
         print(ip_info)
     
-    #try:
-    #    whois_info = domain_scanner.get_whois_info()
-    #except:
-    #    whois_info='whois_info'
-    #    print(whois_info)
-    #nmap_result = domain_scanner.run_nmap()
-    # try:
-    #     nmap_result = domain_scanner.run_nmap()
-    # except:
-    #     nmap_result='nmap_result'
-    #     print(nmap_result)
+    try:
+        whois_info = domain_scanner.get_whois_info()
+    except:
+        whois_info='whois_info'
+        print(whois_info)
+    nmap_result = domain_scanner.run_nmap()
     
     try:
         server_info = domain_scanner.get_server_version()
@@ -166,4 +177,4 @@ def network_result():
 
 
     # HTML 파일에 결과 값 전달
-    return render_template('network_result.html', ip_info=ip_info, server_info=server_info, cve_info=cve_info)
+    return render_template('network_result.html', ip_info=ip_info, whois_info=whois_info, nmap_result=nmap_result, server_info=server_info, cve_info=cve_info)
