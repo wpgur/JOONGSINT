@@ -1,8 +1,8 @@
-Instagram_ID = 'wpgur010'
-Instagram_PW = 'rjseka0510'
+Instagram_ID = ''
+Instagram_PW = ''
 
-Facebook_ID = '01041496804'
-Facebook_PW = 'sman08'
+Facebook_ID = ''
+Facebook_PW = ''
 
 google_api_key='AIzaSyCl6JXKBzc8b8AcfFoNCL1E-2JKYIASO1k'
 google_cse_id='378f71684cc324fe1'
