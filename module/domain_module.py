@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import time, re, os
 from urllib.parse import urljoin
+from urllib.parse import unquote
 from datetime import datetime
 
 
@@ -31,6 +32,12 @@ def domain_result():
             self.all_keyword = []
             self.all_email = []
             self.all_phone = []
+            self.keyword_str = []
+            self.filter_flag = False
+            if request.cookies.get('keyword') is not None :
+                self.filter_flag = True
+                self.keyword_str = request.cookies.get('keyword').encode('latin-1').decode('utf-8')
+                self.keyword_list = [value.strip() for value in self.keyword_str.split(',')]
             
 
         def login_instargram(self, target_url, login_name, login_pw):
@@ -75,7 +82,7 @@ def domain_result():
             time.sleep(3)
             print('페이스북 진입성공')
 
-        def HTML_SRC(self, url, url_search=0):
+        def HTML_SRC(self, url, url_search=0, filter=False):
             try:
                 self.driver.get(url)
 
@@ -92,8 +99,17 @@ def domain_result():
                 # BeautifulSoup을 이용하여 데이터 추출
                 soup = BeautifulSoup(html, 'html.parser')
 
-                if(url_search==1):
+                if (url_search==1):
                     return soup
+
+                if (filter==True):
+                    filter_flag = False
+                    for target_string in self.keyword_list:
+                        if target_string in soup.text:
+                            filter_flag = True
+                            break
+                    if (filter_flag == False):
+                        return
 
                 keywords = re.findall(r"[가-힣]{2,10}", soup.text)
                 for keyword in keywords:
@@ -129,8 +145,6 @@ def domain_result():
                 self.complete_url.append(url)
                 
                 soup = self.HTML_SRC(url, 1)
-                print('a')
-
                 for link in soup.find_all("a"):
 
                     url_add = urljoin(url, link.get("href"))
@@ -146,9 +160,9 @@ def domain_result():
 
 
         def run(self, root_url):
-            
             self.url_append(root_url, 2)
-            
+            print('keyword :',self.keyword_str)
+        
             if not os.path.exists(self.folder_path):
                 os.makedirs(self.folder_path)
             if not os.path.exists(self.log_path):
@@ -156,7 +170,10 @@ def domain_result():
 
             for url in self.all_url:
                 print("[*] Target URL:" ,url, '###')
-                self.HTML_SRC(url)
+                if (self.filter_flag) :
+                    self.HTML_SRC(url, 0, True)   
+                else :
+                    self.HTML_SRC(url)
 
             self.result['keyword'] = self.all_keyword
             self.result['email'] = self.all_email
@@ -166,15 +183,16 @@ def domain_result():
                 fp = open(f'{self.log_path}/{self.start_time}_{key}.txt','w', encoding='utf-8')
                 fp.write(str(self.result[key]))
                 fp.close()
-
+                
             return self.result
 
-
-
-    # url = 'http://joongsint.64bit.kr'
     url = 'http://'+ request.cookies.get('Domain')+'/'
     print(url)
-
+    filter_keyword = ''
+    if request.cookies.get('keyword') not in [None, ''] :
+        filter_keyword = request.cookies.get('keyword').encode('latin-1').decode('utf-8')
+    else :
+        filter_keyword = 'None'
     crawling = WebCrawler()
     result = crawling.run(url)
 
@@ -185,4 +203,4 @@ def domain_result():
     # crawling.login_instargram(url, ins_id, ins_pw)
     # crawling.login_facebook(url, fb_id, fb_pw)
         
-    return render_template("domain_result.html", result=result)
+    return render_template("domain_result.html", filter_keyword=filter_keyword, result=result)
