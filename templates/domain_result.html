@@ -52,7 +52,8 @@
         margin-right: 20px;
       }
 
-      p {
+      p,
+      pre {
         margin: 0;
         padding: 10px;
         text-align: left;
@@ -70,6 +71,9 @@
   </head>
   <body>
     <h1>Domain Module</h1>
+    <pre style="margin-left: 15px">
+ URL 크롤링 로그 경로 : ./crawling_log  |  URL 화면 캡처 로그 경로 : ./capture_log  |  키워드 필터링 : {{ filter_keyword }} </pre
+    >
     <div class="domain-card">
       <h2>email</h2>
       <div class="email-info">
@@ -89,6 +93,12 @@
       <div class="keyword-info">
         <!--<img src="{{ result['keyweord'] }}" alt="profile picture" />-->
         <p>{{ result['keyword'] }}</p>
+      </div>
+    </div>
+    <div class="domain-card">
+      <h2>search URL</h2>
+      <div class="keyword-info">
+        <p>{{ result['search_url'] }}</p>
       </div>
     </div>
     <div class="container my-5">

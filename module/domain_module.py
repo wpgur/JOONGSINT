@@ -28,6 +28,7 @@ def domain_result():
             self.log_path = './crawling_log'
             self.all_url = []
             self.complete_url = []
+            self.search_url = []
             self.result = {}
             self.all_keyword = []
             self.all_email = []
@@ -111,6 +112,7 @@ def domain_result():
                     if (filter_flag == False):
                         return
 
+                self.search_url.append(url)
                 keywords = re.findall(r"[가-힣]{2,10}", soup.text)
                 for keyword in keywords:
                     if keyword not in self.all_keyword:
@@ -178,6 +180,7 @@ def domain_result():
             self.result['keyword'] = self.all_keyword
             self.result['email'] = self.all_email
             self.result['phone'] = self.all_phone
+            self.result['search_url'] = self.search_url
 
             for key in self.result:
                 fp = open(f'{self.log_path}/{self.start_time}_{key}.txt','w', encoding='utf-8')

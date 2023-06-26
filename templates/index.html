@@ -310,7 +310,7 @@
                         class="form-control"
                         id="Domain"
 
-                        placeholder="ex) http://joongsint.64bit.kr"
+                        placeholder="ex) www.joongsint.com"
 
                       />
 
@@ -354,17 +354,20 @@
                   <p class="item-intro text-muted">
                     저장한 값을 확인 하세요.
                   </p>
-                  
-
 
                   <div class="card mt-5">
+
                     <div class="card-body">
+                      <div class="d-flex align-items-center justify-content-between text-xs">
+                        <div class="fw-500">Keyword Filter</div>
+                        <div id="keyword-value"> </div>
+                      </div>
+                      <hr>
                       <div class="d-flex align-items-center justify-content-between text-xs">
                         <div class="fw-500">SNS Profile ID</div>
                         <div id="cookie-value"> </div>
                       </div>
-                      
-                      <!---->
+                      <hr>
                       <!-- <div class="d-flex align-items-center justify-content-between text-xs">
                         <div class="fw-500">Instagram Login info</div>
                         <div>
@@ -379,7 +382,6 @@
                         </div>
                         
                       </div> -->
-                      <hr  >
                       <!-- <div class="d-flex align-items-center justify-content-between text-xs">
                         <div class="fw-500">facebook Login info</div>
                         <div>
@@ -393,7 +395,6 @@
                           </div>
                         </div>
                       </div> -->
-                      
                       <div class="d-flex align-items-center justify-content-between text-xs">
                         <div class="fw-500">Domain</div>
                         <div id="Domain-value"> </div>
@@ -490,11 +491,14 @@
       // const facepwValue = getCookie('face_pw');
       const DomainValue = getCookie('Domain');
       const seaerchValue = getCookie('search');
+      const keywordValue = getCookie('keyword');
+      document.getElementById('keyword-value').textContent=keywordValue || 'No cookie found.';
       document.getElementById('cookie-value').textContent=NameValue || 'No cookie found.';
       // document.getElementById('insta_info_id').textContent=instaidValue || 'No cookie found.';
       // document.getElementById('insta_info_pw').textContent=instapwValue || 'No cookie found.';
       // document.getElementById('face_info_id').textContent=faceidValue || 'No cookie found.';
       // document.getElementById('face_info_pw').textContent=facepwValue || 'No cookie found.';
+      
       document.getElementById('Domain-value').textContent=DomainValue || 'No cookie found.';
       document.getElementById('search-value').textContent=seaerchValue || 'No cookie found.';
 
