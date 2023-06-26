@@ -216,6 +216,29 @@
                     데이터 수집에 필요한 값들을 입력해주세요
                   </p>
                   <div class="col-md-auto">
+                    <input type="checkbox" name="ck_keyword" value="true"> <b>특정 키워드 필터링</b><br>
+                    <div id="keyword_frame" style="display: none;">
+                      <div class="d-flex form-label justify-content-between"> 
+                        <!-- Keyword address input-->
+                        <input
+                          class="form-control"
+                          id="keyword"
+                          placeholder="ex) keyword1, keyword2, keyword3 ..."
+                        />
+  
+                        <button
+                          class="btn btn-primary btn-xl text-uppercase mx-sm-2"
+                          type="button"
+                          onclick="setCookies('keyword');"
+                          name="keyword_btn"
+                        >
+                          <i class="fas fa-xmark me-1"></i>
+                          SAVE
+                        </button>
+                      </div>
+                    </div>
+                    <br>
+
                     검색할 SNS 프로필 ID
                     <div class="d-flex form-label justify-content-between">
                       
@@ -474,6 +497,22 @@
       // document.getElementById('face_info_pw').textContent=facepwValue || 'No cookie found.';
       document.getElementById('Domain-value').textContent=DomainValue || 'No cookie found.';
       document.getElementById('search-value').textContent=seaerchValue || 'No cookie found.';
+
+      // checkbox 상태 변경 시 이벤트 핸들러 함수
+      function handleCheckboxChange() {
+        var checkbox = document.querySelector('input[name="ck_keyword"]');
+        var keywordInput = document.getElementById('keyword_frame');
+        
+        if (checkbox.checked) {
+            keywordInput.style.display = 'block'; // 보이게 함
+          } else {
+            keywordInput.style.display = 'none'; // 숨김
+          }
+        }
+
+      // checkbox 변경 이벤트 리스너 등록
+      var checkbox = document.querySelector('input[name="ck_keyword"]');
+      checkbox.addEventListener('change', handleCheckboxChange);
     </script>
 
 
