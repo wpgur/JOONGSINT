@@ -32,10 +32,10 @@ def domain_result():
             self.all_keyword = []
             self.all_email = []
             self.all_phone = []
-            self.log_path = ''
             self.keyword_str = 'none'
             self.filter_flag = False
-                
+            
+            self.log_path = ''
             if request.cookies.get('folder') is not None :
                 self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/'
             else:
@@ -139,7 +139,7 @@ def domain_result():
                 return
 
         def run(self, root_url):
-            self.url_append(root_url, 1)
+            self.url_append(root_url, 2)
             print('keyword :',self.keyword_str)
             if not os.path.exists(self.log_path):
                 os.makedirs(self.log_path)

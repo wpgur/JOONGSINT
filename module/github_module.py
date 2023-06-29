@@ -19,11 +19,11 @@ def github_result():
             }
             self.keywords = keywords
             self.van_list = ["integrity", "sha512"]
+            self.repo_list = []
             self.result_folder = os.path.join(os.getcwd(), self.username)
             self.ip_regex = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
             self.phone_regex = r'\b(?:\d{2,3}-)?\d{3,4}-\d{4}\b'
             self.email_regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b'
-            self.sum_content = []
             self.start_time = datetime.today().strftime("%Y%m%d%H%M%S")  
             self.log_path = ''
             if request.cookies.get('folder') is not None :
@@ -75,9 +75,7 @@ def github_result():
 
         def traverse_directory(self, repository_name, path=""):
             contents = self.search_repository_contents(repository_name, path)
-            repo_dic = {}
-            repo_list = []
-
+            
             if contents is not None:
                 for content in contents:
                     if content["type"] == "file":
@@ -113,8 +111,7 @@ def github_result():
                                                     f.write(f"content: {line}\n\n")
                                                 dicts['path'] = file_path
                                                 dicts['content'] = line
-                                                repo_list.append(dicts)
-
+                                                self.repo_list.append(dicts)
                                         if re.search(self.ip_regex, line) or re.search(self.phone_regex, line) or re.search(self.email_regex, line):
                                             result_file = os.path.join(self.result_folder, f"{repository_name}.txt")
                                             with open(result_file, "a", encoding="utf-8") as f:
@@ -123,24 +120,19 @@ def github_result():
                                                 f.write(f"content: {line}\n\n")
                                             dicts['path'] = file_path
                                             dicts['content'] = line
-                                            repo_list.append(dicts)
-
-                                        
+                                            self.repo_list.append(dicts)
+                                    print(self.repo_list)
                             except UnicodeDecodeError:
                                 continue
-
-                        elif content["type"] == "dir":
-                            dir_path = content["path"]
-                            self.traverse_directory(repository_name, dir_path)       
-            if len(repo_list) == 0:
-                pass
-            else:
-                repo_dic[repository_name] = repo_list
-                self.sum_content.append(repo_dic)
-            return self.sum_content
+                    elif content["type"] == "dir":
+                        dir_path = content["path"]
+                        print(dir_path)
+                        self.traverse_directory(repository_name, dir_path)
+                return self.repo_list
 
         def analyze(self):
             repositories = self.get_user_repositories()
+            result = {}
             if repositories is not None:
                 sorted_repositories = sorted(repositories, key=lambda x: x["stargazers_count"], reverse=True)
                 
@@ -154,21 +146,24 @@ def github_result():
                     os.makedirs(self.result_folder)
 
                 for repo_name in repository_names:
-                    result = self.traverse_directory(repo_name)
+                    self.repo_list = []
+                    repo_result = self.traverse_directory(repo_name)
+                    result[repo_name] = repo_result
                     time.sleep(1)
             return result
 
-
     github_username = request.cookies.get('NAME')
-
     filter_keyword = ''
-    log_path = './crawling_log/' + request.cookies.get('NAME').encode('latin-1').decode('utf-8')+'/'
     if request.cookies.get('keyword') not in [None, ''] :
         filter_keyword = request.cookies.get('keyword').encode('latin-1').decode('utf-8')
         keyword = [filter_keyword.strip() for filter_keyword in filter_keyword.split(",")]
     else :
         filter_keyword = 'None'
     analyzer = GithubAnalyzer(github_access_token, github_username, keyword)
-    result = analyzer.analyze()
-    print(result)
-    return render_template("github_result.html", filter_keyword=filter_keyword, folder_path=log_path, result=result)
+    try:
+        result = analyzer.analyze()
+    except:
+        print('error')
+        result = {}
+    result_key = list(result.keys())
+    return render_template("github_result.html", filter_keyword=filter_keyword, folder_path=analyzer.log_path, result=result, result_key=result_key)
