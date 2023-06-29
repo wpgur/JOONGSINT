@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Report Module</title>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link
+      href="{{ url_for('static', filename='css/styles.css') }}"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        padding: 20px;
+      }
+
+      
+      .report-card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        padding: 20px;
+      }
+
+      h2 {
+        margin: 0 0 10px 0;
+      }
+
+      .keyword-info,
+      .phone-info,
+      .email-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .keyword-info img,
+      .phone-info img,
+      .email-info img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+
+      p,
+      pre {
+        margin: 0;
+        padding: 10px;
+        text-align: left;
+        font-weight: bold;
+      }
+
+      .keyword-info p,
+      .phone-info p,
+      .email-info p {
+        flex-basis: 100%;
+        text-align: left;
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Report</h1>
+    <div class="report-card">
+      {% for data in result %}
+      <div class="email-info">
+        <table>
+          <thead>
+              <tr>
+                  <th>Key</th>
+                  <th>Value</th>
+              </tr>
+          </thead>
+          <tbody>
+              {% for key, value in data.items() %}
+              <tr>
+                  <td>{{ key }}  </td>
+                  <td>
+                      {% if key == 'url' %}
+                          <a href="{{ value }}">{{ value }}</a>
+                      {% elif key == 'keywords' %}
+                          {% if value|length > 10 %}
+                              <span class="truncate">{{ value[:10] }}</span>
+                              <span class="full-keywords" style="display: none;">{{ value }}</span>
+                              <a href="#" class="more-link">더보기</a>
+                          {% else %} 
+                              {{ value }}
+                          {% endif %}
+                      {% else %}
+                          {{ value }}
+                      {% endif %}
+                  </td>
+              </tr>
+              {% endfor %}
+          </tbody>
+      </table>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="container my-5">
+      <a class="container btn btn-outline-primary" href="/">돌아가기</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.more-link').click(function(e) {
+                e.preventDefault();
+                var keywordsContainer = $(this).siblings('.truncate');
+                var fullKeywords = $(this).siblings('.full-keywords').text();
+                keywordsContainer.text(fullKeywords);
+                $(this).hide();
+            });
+        });
+    </script>
+  </body>
+</html>

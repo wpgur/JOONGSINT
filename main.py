@@ -7,6 +7,7 @@ from module.twitter_module import twitter_module
 from module.search_module import search_module
 from module.domain_module import domain_module
 from module.network_module import network_module
+from module.report_module import report_module
 # import config as config
 
 
@@ -19,6 +20,7 @@ app.register_blueprint(twitter_module)
 app.register_blueprint(search_module)
 app.register_blueprint(domain_module)
 app.register_blueprint(network_module)
+app.register_blueprint(report_module)
 
 # app.config.from_object('config')
 
@@ -31,7 +33,9 @@ def index():
 def hello_flask():
     return render_template('loading.html')
 
-
+@app.route("/report")
+def report_flask():
+    return render_template('report.html')
 
 if __name__ == "__main__":              
     app.run(host="0.0.0.0", port="8085" ,debug=True)
