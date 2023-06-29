@@ -24,8 +24,7 @@ def domain_result():
                 options.headless = True
             self.driver = webdriver.Chrome('chromedriver.exe', options=options)
             self.start_time = datetime.today().strftime("%Y%m%d%H%M%S")  
-            self.folder_path = './capture_log'
-            self.log_path = './crawling_log'
+            self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8')
             self.all_url = []
             self.complete_url = []
             self.search_url = []
@@ -40,49 +39,6 @@ def domain_result():
                 self.keyword_str = request.cookies.get('keyword').encode('latin-1').decode('utf-8')
                 self.keyword_list = [value.strip() for value in self.keyword_str.split(',')]
             
-
-        def login_instargram(self, target_url, login_name, login_pw):
-            insta_url = 'https://www.instagram.com'
-            self.driver.implicitly_wait(10)
-            self.driver.get(insta_url)
-            time.sleep(3)
-
-            username_input = self.driver.find_element(By.CSS_SELECTOR, "input[name='username']")
-            password_input = self.driver.find_element(By.CSS_SELECTOR, "input[name='password']")
-
-            username_input.send_keys(login_name)
-            password_input.send_keys(login_pw)
-
-            login_button = self.driver.find_element(By.XPATH , "//button[@type='submit']")
-            login_button.click()
-
-            print('인스타그램 로그인')
-            time.sleep(3)
-            self.driver.get(target_url)
-            time.sleep(3)
-            print('인스타그램 진입성공')
-
-        def login_facebook(self, target_url, login_name, login_pw):
-            fb_url = 'https://www.facebook.com'
-            self.driver.implicitly_wait(10)
-            self.driver.get(fb_url)
-            time.sleep(3)
-
-            username_input = self.driver.find_element(By.CSS_SELECTOR, "input[name='email']")
-            password_input = self.driver.find_element(By.CSS_SELECTOR, "input[name='pass']")
-
-            username_input.send_keys(login_name)
-            password_input.send_keys(login_pw)
-
-            login_button = self.driver.find_element(By.XPATH , "//button[@type='submit']")
-            login_button.click()
-
-            print('페이스북 로그인')
-            time.sleep(3)
-            self.driver.get(target_url)
-            time.sleep(3)
-            print('페이스북 진입성공')
-
         def HTML_SRC(self, url, url_search=0, filter=False):
             try:
                 self.driver.get(url)
@@ -135,7 +91,7 @@ def domain_result():
                 # 페이지 로딩이 완료될 때까지 대기
                 wait = WebDriverWait(self.driver, 10)
                 wait.until(EC.presence_of_element_located((By.XPATH, "//body")))
-                self.driver.save_screenshot(f'{self.folder_path}/{filename}')
+                self.driver.save_screenshot(f'{self.log_path}/{self.start_time}_{filename}')
             except:
                 pass
 
@@ -155,8 +111,7 @@ def domain_result():
                         self.all_url.append(url_add)
                 
                 for url_one in (set(self.all_url) - set(self.complete_url)):
-                    self.url_append(url_one, depth)
-                
+                    self.url_append(url_one, depth)     
             except:
                 return
 
@@ -164,9 +119,6 @@ def domain_result():
         def run(self, root_url):
             self.url_append(root_url, 2)
             print('keyword :',self.keyword_str)
-        
-            if not os.path.exists(self.folder_path):
-                os.makedirs(self.folder_path)
             if not os.path.exists(self.log_path):
                 os.makedirs(self.log_path)
 
@@ -198,12 +150,6 @@ def domain_result():
         filter_keyword = 'None'
     crawling = WebCrawler()
     result = crawling.run(url)
-
-    # ins_id = request.cookies.get("insta_id")
-    # ins_pw = request.cookies.get("insta_pw")
-    # fb_id = request.cookies.get("face_id")
-    # fb_pw = request.cookies.get("face_pw")
-    # crawling.login_instargram(url, ins_id, ins_pw)
-    # crawling.login_facebook(url, fb_id, fb_pw)
-        
-    return render_template("domain_result.html", filter_keyword=filter_keyword, result=result)
+    log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8')+'/'
+       
+    return render_template("domain_result.html", filter_keyword=filter_keyword, folder_path=log_path, result=result)

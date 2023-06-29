@@ -72,7 +72,7 @@
   <body>
     <h1>Domain Module</h1>
     <pre style="margin-left: 15px">
- URL 크롤링 로그 경로 : ./crawling_log  |  URL 화면 캡처 로그 경로 : ./capture_log  |  키워드 필터링 : {{ filter_keyword }} </pre
+ URL 크롤링 로그 경로 : {{folder_path}}  |  키워드 필터링 : {{ filter_keyword }} </pre
     >
     <div class="domain-card">
       <h2>email</h2>
@@ -89,7 +89,7 @@
       </div>
     </div>
     <div class="domain-card">
-      <h2>keyweord</h2>
+      <h2>keyword</h2>
       <div class="keyword-info">
         <!--<img src="{{ result['keyweord'] }}" alt="profile picture" />-->
         <p>{{ result['keyword'] }}</p>
