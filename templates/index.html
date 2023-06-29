@@ -18,6 +18,9 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
   </head>
   <body>
     <!-- Responsive navbar-->
@@ -117,9 +120,6 @@
                 <form class="d-grid mt-4" form action="/domain_result" method="POST">
                   <button class="btn btn-outline-primary" type="submit">search</button>
                 </form>
-                <form class="d-grid mt-4" form action="/report_result" method="POST">
-                  <button class="btn btn-outline-primary" type="submit">report</button>
-                </form>
               </div>
             </div>
           </div>
@@ -165,13 +165,13 @@
                 <div
                   class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"
                 >
-                  <i class="bi bi-cloud-download"></i>
+                  <i class="fab fa-github"></i>
                 </div>
                 <h2 class="fs-4 fw-bold">Search Github</h2>
                 <p class="mb-0">
                   Enter a GitHub account and retrieve data from all of its repositories!
                 </p>
-                <form class="d-grid mt-4" form action="/domain_result" method="POST">
+                <form class="d-grid mt-4" form action="/github_result" method="POST">
                   <button class="btn btn-outline-primary" type="submit">search</button>
                 </form>
               </div>
@@ -183,7 +183,7 @@
                 <div
                   class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"
                 >
-                  <i class="bi bi-cloud-download"></i>
+                  <i class="fas fa-flag"></i>
                 </div>
                 <h2 class="fs-4 fw-bold">Report</h2>
                 <p class="mb-0">
@@ -293,7 +293,7 @@
                     </div>
 
 
-                    검색할 SNS 프로필 ID
+                    검색할 프로필 ID
                     <div class="d-flex form-label justify-content-between">
                       
                       <!-- Name input-->
@@ -414,7 +414,7 @@
                       </div>
                       <hr>
                       <div class="d-flex align-items-center justify-content-between text-xs">
-                        <div class="fw-500">SNS Profile ID</div>
+                        <div class="fw-500">Profile ID</div>
                         <div id="cookie-value"> </div>
                       </div>
                       <hr>

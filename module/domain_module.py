@@ -23,8 +23,8 @@ def domain_result():
                 options = Options()
                 options.headless = True
             self.driver = webdriver.Chrome('chromedriver.exe', options=options)
-            self.start_time = datetime.today().strftime("%Y%m%d%H%M%S")  
-            self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8')
+            self.start_time = datetime.today().strftime("%Y%m%d%H%M%S")
+            self.category = ['keywords', 'emails', 'phones']
             self.all_url = []
             self.complete_url = []
             self.search_url = []
@@ -32,12 +32,23 @@ def domain_result():
             self.all_keyword = []
             self.all_email = []
             self.all_phone = []
-            self.keyword_str = []
+            self.log_path = ''
+            self.keyword_str = 'none'
             self.filter_flag = False
+                
+            if request.cookies.get('folder') is not None :
+                self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/'
+            else:
+                self.log_path = './crawling_log/none/'
+
             if request.cookies.get('keyword') is not None :
                 self.filter_flag = True
                 self.keyword_str = request.cookies.get('keyword').encode('latin-1').decode('utf-8')
                 self.keyword_list = [value.strip() for value in self.keyword_str.split(',')]
+                self.log_path += self.keyword_str
+            else:
+                self.log_path += 'none'
+                
             
         def HTML_SRC(self, url, url_search=0, filter=False):
             try:
@@ -84,17 +95,32 @@ def domain_result():
                     if phone not in self.all_phone:
                         self.all_phone.append(phone)
 
+                #URL 별 로그 저장
+                url_path = self.log_path + '/' + url.replace('/','_').replace(':','-')
+                if not os.path.exists(url_path):
+                    os.makedirs(url_path)
+                
+                for key in self.category:
+                    if not os.path.exists(f'{url_path}/{key}'):
+                        os.makedirs(f'{url_path}/{key}')
+
+                for key in self.category:
+                    value = locals()[key]
+                    fp = open(f'{url_path}/{key}/{self.start_time}.txt','w', encoding='utf-8')
+                    fp.write(str(value))
+                    fp.close()
+
                 invalid_chars = r'[\\/:\*\?"<>\|]+'
                 # 파일 이름으로 사용할 수 없는 문자들을 '_'로 치환
-                filename = re.sub(invalid_chars, '_', url) + '.png'
+                filename = re.sub(invalid_chars, '_', 'page') + '.png'
                 self.driver.set_window_size(1920, 1080)
                 # 페이지 로딩이 완료될 때까지 대기
                 wait = WebDriverWait(self.driver, 10)
                 wait.until(EC.presence_of_element_located((By.XPATH, "//body")))
-                self.driver.save_screenshot(f'{self.log_path}/{self.start_time}_{filename}')
+                self.driver.save_screenshot(f'{url_path}/{filename}')
+
             except:
                 pass
-
 
         def url_append(self, url, depth=1):
             try:
@@ -104,20 +130,16 @@ def domain_result():
                 
                 soup = self.HTML_SRC(url, 1)
                 for link in soup.find_all("a"):
-
                     url_add = urljoin(url, link.get("href"))
-                    
                     if url_add not in self.all_url:
-                        self.all_url.append(url_add)
-                
+                        self.all_url.append(url_add) 
                 for url_one in (set(self.all_url) - set(self.complete_url)):
                     self.url_append(url_one, depth)     
             except:
                 return
 
-
         def run(self, root_url):
-            self.url_append(root_url, 2)
+            self.url_append(root_url, 1)
             print('keyword :',self.keyword_str)
             if not os.path.exists(self.log_path):
                 os.makedirs(self.log_path)
@@ -133,12 +155,6 @@ def domain_result():
             self.result['email'] = self.all_email
             self.result['phone'] = self.all_phone
             self.result['search_url'] = self.search_url
-
-            for key in self.result:
-                fp = open(f'{self.log_path}/{self.start_time}_{key}.txt','w', encoding='utf-8')
-                fp.write(str(self.result[key]))
-                fp.close()
-                
             return self.result
 
     url = 'http://'+ request.cookies.get('Domain')+'/'
@@ -150,6 +166,5 @@ def domain_result():
         filter_keyword = 'None'
     crawling = WebCrawler()
     result = crawling.run(url)
-    log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8')+'/'
-       
-    return render_template("domain_result.html", filter_keyword=filter_keyword, folder_path=log_path, result=result)
+
+    return render_template("domain_result.html", filter_keyword=filter_keyword, folder_path=crawling.log_path, result=result)

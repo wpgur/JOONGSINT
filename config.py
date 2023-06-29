@@ -9,3 +9,5 @@ google_cse_id='378f71684cc324fe1'
 naver_client_id='9IL9Mpl8NKbAWNeuQKS_'
 naver_client_secret='_d8DAzA3IG'
 openai_api_key='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'
+
+github_access_token = "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"

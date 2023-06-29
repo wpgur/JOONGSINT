@@ -47,40 +47,6 @@
       </div>
     </nav>
 
-    <!-- report -->
-
-    <select id="combo-box"></select>
-
-    <script>
-      function getDictionaryFromFile(path, callback) {
-        var xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function() {
-          if (xhr.readyState === 4 && xhr.status === 200) {
-            var dictionary = JSON.parse(xhr.responseText);
-            callback(dictionary);
-          }
-        };
-        xhr.open("GET", path, true);
-        xhr.send();
-      }
-  
-      function populateComboBox(dictionary) {
-        var comboBox = document.getElementById("combo-box");
-        for (var key in dictionary) {
-          if (dictionary.hasOwnProperty(key)) {
-            var option = document.createElement("option");
-            option.text = key;
-            option.value = dictionary[key];
-            comboBox.appendChild(option);
-          }
-        }
-      }
-  
-      var dictionaryFilePath = "./crawling_log";
-      getDictionaryFromFile(dictionaryFilePath, populateComboBox);
-    </script>
-
-
 
     <div class="container my-5">
         <a class="container btn btn-outline-primary" href="/">돌아가기</a>

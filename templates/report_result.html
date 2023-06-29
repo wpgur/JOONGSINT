@@ -34,18 +34,14 @@
         margin: 0 0 10px 0;
       }
 
-      .keyword-info,
-      .phone-info,
-      .email-info {
+      .report-info {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
       }
 
-      .keyword-info img,
-      .phone-info img,
-      .email-info img {
+      .report-info img {
         width: 100px;
         height: 100px;
         border-radius: 50%;
@@ -61,9 +57,7 @@
         font-weight: bold;
       }
 
-      .keyword-info p,
-      .phone-info p,
-      .email-info p {
+      .report-info p {
         flex-basis: 100%;
         text-align: left;
         font-weight: normal;
@@ -74,7 +68,7 @@
     <h1>Report</h1>
     <div class="report-card">
       {% for data in result %}
-      <div class="email-info">
+      <div class="report-info">
         <table>
           <thead>
               <tr>
