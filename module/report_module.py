@@ -36,4 +36,4 @@ def report_result():
     result = report.extract_dict_names(report.log_path)
 
     #print(result)
-    return render_template("report_result.html", result=result)
+    return render_template("report_result.html", report_select=report.report_select, result=result)
