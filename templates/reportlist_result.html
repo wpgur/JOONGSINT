@@ -65,7 +65,7 @@
         <h2>Report List</h2>
         <br>
         <form action="/report_result" method="post">
-          <select name="combo-box" id="select_report">
+          <select name="report_select" id="report_select">
             {% for item in result %}
               <option value="{{ item }}">{{ item }}</option>
             {% endfor %}
