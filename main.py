@@ -9,6 +9,7 @@ from module.domain_module import domain_module
 from module.network_module import network_module
 from module.github_module import github_module
 from module.report_module import report_module
+from module.reportlist_module import reportlist_module
 # import config as config
 
 
@@ -23,6 +24,7 @@ app.register_blueprint(domain_module)
 app.register_blueprint(network_module)
 app.register_blueprint(github_module)
 app.register_blueprint(report_module)
+app.register_blueprint(reportlist_module)
 
 # app.config.from_object('config')
 
