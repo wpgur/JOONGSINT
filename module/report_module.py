@@ -11,6 +11,7 @@ def report_result():
             self.start_time = datetime.today().strftime("%Y%m%d%H%M%S")  
             self.log_path = ''
             self.report_select = request.form.get('report_select')
+            
             if request.cookies.get('folder') is not None :
                 self.log_path = './crawling_log/' + self.report_select + '/'
             else:
@@ -22,7 +23,7 @@ def report_result():
             try:
                 for data_path in os.listdir(f'{directory}/'):
                     #print(f'{file_path}/{data_path}')
-                    with open(f'{directory}/{data_path}', 'r') as file:
+                    with open(f'{directory}/{data_path}', 'r', encoding='utf-8') as file:
                         data = file.read()
                         data_list = ast.literal_eval(data)
                     dict_names.append(data_list)
