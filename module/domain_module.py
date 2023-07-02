@@ -34,22 +34,19 @@ def domain_result():
             self.all_phone = []
             self.keyword_str = 'none'
             self.filter_flag = False
-            
+            self.value_dic = {}
+            self.capute_path = './capture_page'
             self.log_path = ''
             if request.cookies.get('folder') is not None :
-                self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/'
+                self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/domain_module'
             else:
-                self.log_path = './crawling_log/none/'
+                self.log_path = './crawling_log/none/domain_module'
 
             if request.cookies.get('keyword') is not None :
                 self.filter_flag = True
                 self.keyword_str = request.cookies.get('keyword').encode('latin-1').decode('utf-8')
                 self.keyword_list = [value.strip() for value in self.keyword_str.split(',')]
-                self.log_path += self.keyword_str
-            else:
-                self.log_path += 'none'
-                
-            
+   
         def HTML_SRC(self, url, url_search=0, filter=False):
             try:
                 self.driver.get(url)
@@ -95,29 +92,23 @@ def domain_result():
                     if phone not in self.all_phone:
                         self.all_phone.append(phone)
 
-                #URL 별 로그 저장
-                url_path = self.log_path + '/' + url.replace('/','_').replace(':','-')
-                if not os.path.exists(url_path):
-                    os.makedirs(url_path)
-                
+                value = []
+                tmp = {}
                 for key in self.category:
-                    if not os.path.exists(f'{url_path}/{key}'):
-                        os.makedirs(f'{url_path}/{key}')
+                    tmp[key] = locals()[key]
+                tmp['filter_keyword'] = self.keyword_str
+                value.append(tmp)
+                self.value_dic[url] = value
 
-                for key in self.category:
-                    value = locals()[key]
-                    fp = open(f'{url_path}/{key}/{self.start_time}.txt','w', encoding='utf-8')
-                    fp.write(str(value))
-                    fp.close()
 
                 invalid_chars = r'[\\/:\*\?"<>\|]+'
                 # 파일 이름으로 사용할 수 없는 문자들을 '_'로 치환
-                filename = re.sub(invalid_chars, '_', 'page') + '.png'
+                filename = re.sub(invalid_chars, '_', url) + '.png'
                 self.driver.set_window_size(1920, 1080)
                 # 페이지 로딩이 완료될 때까지 대기
                 wait = WebDriverWait(self.driver, 10)
                 wait.until(EC.presence_of_element_located((By.XPATH, "//body")))
-                self.driver.save_screenshot(f'{url_path}/{filename}')
+                self.driver.save_screenshot(f'{self.capute_path}/{filename}')
 
             except:
                 pass
@@ -144,12 +135,19 @@ def domain_result():
             if not os.path.exists(self.log_path):
                 os.makedirs(self.log_path)
 
+            if not os.path.exists(self.capute_path):
+                os.makedirs(self.capute_path)
+
             for url in self.all_url:
                 print("[*] Target URL:" ,url, '###')
                 if (self.filter_flag) :
                     self.HTML_SRC(url, 0, True)   
                 else :
                     self.HTML_SRC(url)
+
+            fp = open(f'{self.log_path}/{self.start_time}.txt','w', encoding='utf-8')
+            fp.write(str(self.value_dic))
+            fp.close()
 
             self.result['keyword'] = self.all_keyword
             self.result['email'] = self.all_email
@@ -159,12 +157,9 @@ def domain_result():
 
     url = 'http://'+ request.cookies.get('Domain')+'/'
     print(url)
-    filter_keyword = ''
-    if request.cookies.get('keyword') not in [None, ''] :
-        filter_keyword = request.cookies.get('keyword').encode('latin-1').decode('utf-8')
-    else :
-        filter_keyword = 'None'
+
     crawling = WebCrawler()
     result = crawling.run(url)
+    
 
-    return render_template("domain_result.html", filter_keyword=filter_keyword, folder_path=crawling.log_path, result=result)
+    return render_template("domain_result.html", filter_keyword=crawling.log_path, folder_path=crawling.log_path, result=result)
