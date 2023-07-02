@@ -178,7 +178,7 @@ def network_result():
 
     # log file save
     log_path = ''
-    if request.cookies.get('folder') is not None :
+    if request.cookies.get('folder') is not None and request.cookies.get('folder') != '' :
         log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/network_module'
     else:
         log_path = './crawling_log/none/network_module'

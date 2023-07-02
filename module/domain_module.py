@@ -37,12 +37,12 @@ def domain_result():
             self.value_dic = {}
             self.capute_path = './capture_page'
             self.log_path = ''
-            if request.cookies.get('folder') is not None :
+            if request.cookies.get('folder') is not None and request.cookies.get('folder') != '' :
                 self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/domain_module'
             else:
                 self.log_path = './crawling_log/none/domain_module'
 
-            if request.cookies.get('keyword') is not None :
+            if request.cookies.get('keyword') is not None and request.cookies.get('keyword') != '' :
                 self.filter_flag = True
                 self.keyword_str = request.cookies.get('keyword').encode('latin-1').decode('utf-8')
                 self.keyword_list = [value.strip() for value in self.keyword_str.split(',')]
