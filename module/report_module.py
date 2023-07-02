@@ -19,21 +19,23 @@ def report_result():
 
         def extract_dict_names(self, directory):
             dict_names = []
-            for filename in os.listdir(directory):
-                file_path = os.path.join(directory, filename)
-                for data_path in os.listdir(f'{file_path}/'):
+            try:
+                for data_path in os.listdir(f'{directory}/'):
                     #print(f'{file_path}/{data_path}')
-                    with open(f'{file_path}/{data_path}', 'r') as file:
+                    with open(f'{directory}/{data_path}', 'r') as file:
                         data = file.read()
                         data_list = ast.literal_eval(data)
                     dict_names.append(data_list)
+            except:
+                pass
             return dict_names
     
     
     report = Report()
     current_directory = os.getcwd()
     print(f"current path: {report.log_path}")
-    result = report.extract_dict_names(report.log_path)
+    domain_path = f'{report.log_path}domain_module'
+    domain = report.extract_dict_names(domain_path)
 
     #print(result)
-    return render_template("report_result.html", report_select=report.report_select, result=result)
+    return render_template("report_result.html", report_select=report.report_select, domain=domain)
