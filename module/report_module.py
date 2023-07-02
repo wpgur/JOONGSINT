@@ -15,18 +15,11 @@ def report_result():
         def __init__(self):
             self.start_time = datetime.today().strftime("%Y%m%d%H%M%S")  
             self.log_path = ''
-            self.category = ['emails', 'phones', 'keywords']
-
             if request.cookies.get('folder') is not None :
                 self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/'
             else:
                 self.log_path = './crawling_log/none/'
 
-            if request.cookies.get('keyword') is not None :
-                self.keyword_str = request.cookies.get('keyword').encode('latin-1').decode('utf-8')
-                self.log_path += self.keyword_str
-            else:
-                self.log_path += 'none'
 
         def extract_dict_names(self, directory):
             dict_names = []
@@ -34,14 +27,13 @@ def report_result():
                 file_path = os.path.join(directory, filename)
                 url_path = filename.replace('-',':').replace('_','/')
                 value = {}
-                for cate in self.category:
-                    for data_path in os.listdir(f'{file_path}/{cate}/'):
-                        with open(f'{file_path}/{cate}/{data_path}', 'r') as file:
-                            data = file.read()
-                            data = ast.literal_eval(data)
-                            value['url'] = url_path
-                            value[cate] = data
-                dict_names.append(value)
+                for data_path in os.listdir(f'{file_path}/'):
+                    print(f'{file_path}/{data_path}')
+                    with open(f'{file_path}/{data_path}', 'r') as file:
+                        data = file.read()
+                        data_list = ast.literal_eval(data)
+                    dict_names.append(data_list)
+            #print(dict_names)
             return dict_names
     
     report = Report()
@@ -50,5 +42,5 @@ def report_result():
     result = report.extract_dict_names(report.log_path)
 
 
-
+    print(result)
     return render_template("report_result.html", result=result)

@@ -62,45 +62,60 @@
         text-align: left;
         font-weight: normal;
       }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        width: 20%;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
     </style>
   </head>
   <body>
     <h1>Report</h1>
     <div class="report-card">
-      {% for data in result %}
       <div class="report-info">
         <table>
-          <thead>
-              <tr>
-                  <th>Key</th>
-                  <th>Value</th>
-              </tr>
-          </thead>
-          <tbody>
-              {% for key, value in data.items() %}
-              <tr>
-                  <td>{{ key }}  </td>
-                  <td>
-                      {% if key == 'url' %}
-                          <a href="{{ value }}">{{ value }}</a>
-                      {% elif key == 'keywords' %}
-                          {% if value|length > 10 %}
-                              <span class="truncate">{{ value[:10] }}</span>
-                              <span class="full-keywords" style="display: none;">{{ value }}</span>
-                              <a href="#" class="more-link">더보기</a>
-                          {% else %} 
-                              {{ value }}
+          <tr>
+              <th style="width: 20%;">URL</th>
+              <th style="width: 20%;">Filter Keyword</th>
+              <th style="width: 20%;">Emails</th>
+              <th style="width: 20%;">Phones</th>
+              <th style="width: 20%;">Keywords</th>
+          </tr>
+          {% for result_dic in result %}
+            {% for url, items in result_dic.items() %}
+                {% for item in items %}
+                    <tr>
+                        <td><a href="{{ url }}">{{ url }}</a></td>
+                        <td>{{ item['filter_keyword'] }}</td>
+                        <td>{{ item['emails'] }}</td>
+                        <td>{{ item['phones'] }}</td>
+                        <td>
+                          <div class="truncate">{{ item['keywords'][:10] }}{% if item['keywords']|length > 10 %}...{% endif %}</div>
+                          {% if item['keywords']|length > 10 %}
+                            <div class="full-keywords" style="display: none;">{{ item['keywords'] }}</div>
+                            <a href="#" class="more-link">더보기</a>
+                            <a href="#" class="less-link" style="display: none;">접기</a>
                           {% endif %}
-                      {% else %}
-                          {{ value }}
-                      {% endif %}
-                  </td>
-              </tr>
-              {% endfor %}
-          </tbody>
-      </table>
+                        </td>
+                        
+                    </tr>
+                {% endfor %}
+            {% endfor %}
+          {% endfor %}
+        </table>
       </div>
-      {% endfor %}
     </div>
 
     <div class="container my-5">
@@ -109,15 +124,25 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $(document).ready(function() {
-            $('.more-link').click(function(e) {
-                e.preventDefault();
-                var keywordsContainer = $(this).siblings('.truncate');
-                var fullKeywords = $(this).siblings('.full-keywords').text();
-                keywordsContainer.text(fullKeywords);
-                $(this).hide();
-            });
+    $(document).ready(function() {
+        $('.more-link').click(function(e) {
+            e.preventDefault();
+            var keywordsContainer = $(this).siblings('.truncate');
+            var fullKeywords = $(this).siblings('.full-keywords').text();
+            keywordsContainer.text(fullKeywords);
+            $(this).hide();
+            $(this).siblings('.less-link').show();
         });
-    </script>
+
+        $('.less-link').click(function(e) {
+            e.preventDefault();
+            var keywordsContainer = $(this).siblings('.truncate');
+            var truncatedKeywords = $(this).siblings('.full-keywords').text().slice(0, 10) + '...';
+            keywordsContainer.text(truncatedKeywords);
+            $(this).hide();
+            $(this).siblings('.more-link').show();
+        });
+    });
+</script>
   </body>
 </html>
