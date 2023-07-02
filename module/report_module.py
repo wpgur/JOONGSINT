@@ -17,12 +17,10 @@ def report_result():
             else:
                 self.log_path = './crawling_log/none/'
 
-
         def extract_dict_names(self, directory):
             dict_names = []
             try:
                 for data_path in os.listdir(f'{directory}/'):
-                    #print(f'{file_path}/{data_path}')
                     with open(f'{directory}/{data_path}', 'r', encoding='utf-8') as file:
                         data = file.read()
                         data_list = ast.literal_eval(data)
@@ -31,12 +29,15 @@ def report_result():
                 pass
             return dict_names
     
-    
+        
     report = Report()
     current_directory = os.getcwd()
     print(f"current path: {report.log_path}")
-    domain_path = f'{report.log_path}domain_module'
+    domain_path = f'{report.log_path}domain_module' 
     domain = report.extract_dict_names(domain_path)
 
-    #print(result)
-    return render_template("report_result.html", report_select=report.report_select, domain=domain)
+    network_path = f'{report.log_path}network_module'
+    network = report.extract_dict_names(network_path)
+    print(network)
+
+    return render_template("report_result.html", report_select=report.report_select, domain=domain, network=network)

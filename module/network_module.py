@@ -7,8 +7,9 @@ import whois
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
-import time
 import pandas
+import time, os
+from datetime import datetime
 
 
 network_module = Blueprint("network_module", __name__)
@@ -175,6 +176,27 @@ def network_result():
     for i in range(len(server_info)):
         cve_info.append(domain_scanner.get_cve_info(server_info[i]))
 
+    # log file save
+    log_path = ''
+    if request.cookies.get('folder') is not None :
+        log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/network_module'
+    else:
+        log_path = './crawling_log/none/network_module'
+    start_time = datetime.today().strftime("%Y%m%d%H%M%S")
+
+    if not os.path.exists(log_path):
+        os.makedirs(log_path)
+
+    result_dic = {}
+    result_dic['ip_info'] = ip_info
+    #result_dic['whois_info'] = whois_info
+    result_dic['nmap_result'] = nmap_result
+    result_dic['server_info'] = server_info
+    result_dic['cve_info'] = cve_info
+
+    fp = open(f'{log_path}/{start_time}.txt','w', encoding='utf-8')
+    fp.write(str(result_dic))
+    fp.close()
 
     # HTML 파일에 결과 값 전달
     return render_template('network_result.html', ip_info=ip_info, whois_info=whois_info, nmap_result=nmap_result, server_info=server_info, cve_info=cve_info)
