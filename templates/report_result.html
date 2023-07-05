@@ -137,7 +137,9 @@
             <td>{{ net['server_info'] }}</td>
             <td>
               {% for item_list in net['cve_info'] %} {% for item in item_list %}
-              {{ item['CVE ID'] }}<br />
+              <a href="https://nvd.nist.gov/vuln/detail/{{ item['CVE ID'] }}"
+                >{{ item['CVE ID'] }}</a
+              ><br />
               {% endfor %} {% endfor %}
             </td>
           </tr>
