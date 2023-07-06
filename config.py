@@ -10,4 +10,4 @@ naver_client_id='9IL9Mpl8NKbAWNeuQKS_'
 naver_client_secret='_d8DAzA3IG'
 openai_api_key='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'
 
-github_access_token = "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"
+github_access_token = "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"
