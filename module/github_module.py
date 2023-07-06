@@ -26,11 +26,10 @@ def github_result():
             self.email_regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b'
             self.start_time = datetime.today().strftime("%Y%m%d%H%M%S")  
             self.log_path = ''
-            if request.cookies.get('folder') is not None :
-                self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/'
+            if request.cookies.get('folder') is not None and request.cookies.get('folder') != '' :
+                self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/github_module'
             else:
-                self.log_path = './crawling_log/none/'
-            self.log_path += username
+                self.log_path = './crawling_log/none/github_module'
 
             if not os.path.exists(self.log_path):
                 os.makedirs(self.log_path)
@@ -55,12 +54,13 @@ def github_result():
                 contents = response.json()
                 return contents
             else:
-                print("Error:", response.status_code)
+                print("Error1:", response.status_code)
                 print("Response:", response.text)
                 return None
 
         def search_file_contents(self, repository_name, file_path):
             url = f"https://api.github.com/repos/{self.username}/{repository_name}/contents/{file_path}"
+            print(url)
             response = requests.get(url, headers=self.headers)
 
             if response.status_code == 200:
@@ -70,7 +70,7 @@ def github_result():
                 else:
                     print("File content not found.")
             else:
-                print("Error:", response.status_code)
+                print("Error2:", response.status_code)
                 print("Response:", response.text)
 
         def traverse_directory(self, repository_name, path=""):
@@ -79,7 +79,7 @@ def github_result():
             if contents is not None:
                 for content in contents:
                     if content["type"] == "file":
-                        file_path = content["path"]
+                        file_path =  content["path"]
                         file_result = self.search_file_contents(repository_name, file_path)
 
                         if file_result is not None:
@@ -121,13 +121,12 @@ def github_result():
                                             dicts['path'] = file_path
                                             dicts['content'] = line
                                             self.repo_list.append(dicts)
-                                    print(self.repo_list)
                             except UnicodeDecodeError:
                                 continue
                     elif content["type"] == "dir":
                         dir_path = content["path"]
-                        print(dir_path)
                         self.traverse_directory(repository_name, dir_path)
+
                 return self.repo_list
 
         def analyze(self):
@@ -150,9 +149,23 @@ def github_result():
                     repo_result = self.traverse_directory(repo_name)
                     result[repo_name] = repo_result
                     time.sleep(1)
+            del_list = []
+
+            for i in range(len(result)):
+                if len(list(result.values())[i]) == 0:
+                    del_list.append(list(result.keys())[i])
+                else:
+                    pass
+            for i in range(len(del_list)):
+                del result[del_list[i]]
+            fp = open(f'{self.log_path}/{self.start_time}.txt','w', encoding='utf-8')
+            fp.write(self.username+"$"+str(result))
+            fp.close()
+            
             return result
 
     github_username = request.cookies.get('NAME')
+    print(github_username)
     filter_keyword = ''
     if request.cookies.get('keyword') not in [None, ''] :
         filter_keyword = request.cookies.get('keyword').encode('latin-1').decode('utf-8')
@@ -166,4 +179,7 @@ def github_result():
         print('error')
         result = {}
     result_key = list(result.keys())
+
+
+
     return render_template("github_result.html", filter_keyword=filter_keyword, folder_path=analyzer.log_path, result=result, result_key=result_key)
