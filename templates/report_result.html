@@ -147,9 +147,34 @@
         </table>
       </div>
       <hr />
+      <br />
       <h3>LOG - Github Module</h3>
       <!-- Report Git -->
+      <table>
+        <tr>
+          <th style="width: 5%">who</th>
+          <th style="width: 25%">repository</th>
+          <th style="width: 25%">path</th>
+          <th style="width: 45%">content</th>
+        </tr>
+        {% for git_dic in github %} {% for url, items in git_dic.items()%} {%
+        for item in items %}
+        <tr>
+          <td>{{who}}</td>
+          <td>{{url}}</td>
+          <td>
+            <a
+              href="https://github.com/{{who}}/{{url}}/blob/master/{{ item['path'] }}"
+              >{{ item['path'] }}</a
+            >
+          </td>
+          <td>{{ item['content'] }}</td>
+        </tr>
+        {% endfor %} {% endfor %} {% endfor %}
+      </table>
       <hr />
+      <br />
+
       <form class="d-grid mt-4" form action="/reportlist_result" method="POST">
         <button class="btn btn-outline-primary" type="submit">돌아가기</button>
       </form>
