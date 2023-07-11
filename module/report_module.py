@@ -12,7 +12,7 @@ def report_result():
             self.log_path = ''
             self.report_select = request.form.get('report_select')
             
-            if request.cookies.get('folder') is not None :
+            if request.cookies.get('folder') is not None and request.cookies.get('folder') != '' :
                 self.log_path = './crawling_log/' + self.report_select + '/'
             else:
                 self.log_path = './crawling_log/none/'
@@ -55,10 +55,9 @@ def report_result():
 
     network_path = f'{report.log_path}network_module'
     network = report.extract_dict_names(network_path)
-    print(network)
 
     github_path = f'{report.log_path}github_module'
     github, whos = report.split_name(github_path)
 
 
-    return render_template("report_result.html", report_select=report.report_select, domain=domain, network=network, github=github, who=whos)
+    return render_template("report_result.html", log_path=report.log_path, report_select=report.report_select, domain=domain, network=network, github=github, who=whos)
