@@ -83,6 +83,15 @@
   <body>
     <h1>Report - {{report_select}}</h1>
     <div class="report-card">
+      <div style="display: flex; justify-content: space-between">
+        <span style="float: left; font-size: 22px">Path: {{log_path}}</span>
+        <form action="/reportPDF_result" method="POST">
+          <button class="btn btn-outline-primary btn-sm" type="submit">
+            PDF로 변환
+          </button>
+        </form>
+      </div>
+      <hr />
       <h3>LOG - Domain Module</h3>
       <div class="report-info">
         <table>
