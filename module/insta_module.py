@@ -17,6 +17,7 @@ def insta_result():
         def __init__(self, username , driver_path):
             self.driver_path = driver_path
             self.username = username
+            
 
         def login_instargram(self, driver, target_url, login_name, login_pw):
             insta_url = 'https://www.instagram.com'
@@ -114,7 +115,8 @@ def insta_result():
                     return profile_data
                 except Exception as e:
                     return e
-            except:
+            except Exception as err:
+                print(err)
                 return '123'
 
     
@@ -122,6 +124,7 @@ def insta_result():
     driver_path = 'app/chromedriver.exe'
 
     find_name = request.cookies.get("NAME")
+    
 
     scraper = SNSProfileScraper(find_name , driver_path)
     instagram_profile = scraper.scrape_instagram_profile(Instagram_ID,Instagram_PW)
