@@ -162,4 +162,4 @@ def domain_result():
     result = crawling.run(url)
     
 
-    return render_template("domain_result.html", filter_keyword=crawling.log_path, folder_path=crawling.log_path, result=result)
+    return render_template("domain_result.html", filter_keyword=crawling.keyword_str, folder_path=crawling.log_path, result=result)

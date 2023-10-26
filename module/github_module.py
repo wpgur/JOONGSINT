@@ -26,11 +26,12 @@ def github_result():
             self.email_regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b'
             self.start_time = datetime.today().strftime("%Y%m%d%H%M%S")  
             self.log_path = ''
-            if request.cookies.get('folder') is not None :
-                self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/'
+            self.pdf_link = []
+            
+            if request.cookies.get('folder') is not None and request.cookies.get('folder') != '' :
+                self.log_path = './crawling_log/' + request.cookies.get('folder').encode('latin-1').decode('utf-8') + '/github_module'
             else:
-                self.log_path = './crawling_log/none/'
-            self.log_path += username
+                self.log_path = './crawling_log/none/github_module'
 
             if not os.path.exists(self.log_path):
                 os.makedirs(self.log_path)
@@ -70,7 +71,7 @@ def github_result():
                 else:
                     print("File content not found.")
             else:
-                print("Error:", response.status_code)
+                print("Error2:", response.status_code)
                 print("Response:", response.text)
 
         def traverse_directory(self, repository_name, path=""):
@@ -79,7 +80,7 @@ def github_result():
             if contents is not None:
                 for content in contents:
                     if content["type"] == "file":
-                        file_path = content["path"]
+                        file_path =  content["path"]
                         file_result = self.search_file_contents(repository_name, file_path)
 
                         if file_result is not None:
@@ -88,15 +89,10 @@ def github_result():
                                 file_path = file_result["file_path"]
                                 # Check if the file is a PDF
                                 if file_path.endswith(".pdf"):
-                                    # Create a directory for the repository if it does not exist
-                                    repo_dir = os.path.join(self.result_folder, repository_name)
-                                    if not os.path.exists(repo_dir):
-                                        os.makedirs(repo_dir)
                                     # Get the download URL of the PDF
                                     pdf_url = f"https://github.com/{self.username}/{repository_name}/blob/master/{file_path}?raw=true"
                                     # Save the download URL into the file 'pdf_link.txt'
-                                    with open(os.path.join(repo_dir, "pdf_link.txt"), "a") as pdf_link_file:
-                                        pdf_link_file.write(f"{file_path}: {pdf_url}\n")
+                                    self.pdf_link.append(pdf_url)
                                 else:
                                     decoded_content = base64.b64decode(file_contents).decode("utf-8")
                                     lines = decoded_content.splitlines()
@@ -104,30 +100,19 @@ def github_result():
                                         dicts = {}
                                         for keyword in self.keywords:
                                             if re.search(keyword, line, re.IGNORECASE) and not any(van in line for van in self.van_list):
-                                                result_file = os.path.join(self.result_folder, f"{repository_name}.txt")
-                                                with open(result_file, "a", encoding="utf-8") as f:
-                                                    f.write(f"repo: {repository_name}\n")
-                                                    f.write(f"path: {file_path}\n")
-                                                    f.write(f"content: {line}\n\n")
                                                 dicts['path'] = file_path
                                                 dicts['content'] = line
                                                 self.repo_list.append(dicts)
                                         if re.search(self.ip_regex, line) or re.search(self.phone_regex, line) or re.search(self.email_regex, line):
-                                            result_file = os.path.join(self.result_folder, f"{repository_name}.txt")
-                                            with open(result_file, "a", encoding="utf-8") as f:
-                                                f.write(f"repo: {repository_name}\n")
-                                                f.write(f"path: {file_path}\n")
-                                                f.write(f"content: {line}\n\n")
                                             dicts['path'] = file_path
                                             dicts['content'] = line
                                             self.repo_list.append(dicts)
-                                    print(self.repo_list)
                             except UnicodeDecodeError:
                                 continue
                     elif content["type"] == "dir":
                         dir_path = content["path"]
-                        print(dir_path)
                         self.traverse_directory(repository_name, dir_path)
+
                 return self.repo_list
 
         def analyze(self):
@@ -142,28 +127,43 @@ def github_result():
                     repository_names.append(repo["name"])
                     print(repo["name"])
 
-                if not os.path.exists(self.result_folder):
-                    os.makedirs(self.result_folder)
 
                 for repo_name in repository_names:
                     self.repo_list = []
                     repo_result = self.traverse_directory(repo_name)
                     result[repo_name] = repo_result
                     time.sleep(1)
-            return result
+            del_list = []
+
+            for i in range(len(result)):
+                if len(list(result.values())[i]) == 0:
+                    del_list.append(list(result.keys())[i])
+                else:
+                    pass
+            for i in range(len(del_list)):
+                del result[del_list[i]]
+            fp = open(f'{self.log_path}/{self.start_time}.txt','w', encoding='utf-8')
+            fp.write(self.username+"$"+str(result))
+            fp.close()
+            
+            return result,self.pdf_link
 
     github_username = request.cookies.get('NAME')
+    print(github_username)
     filter_keyword = ''
     if request.cookies.get('keyword') not in [None, ''] :
         filter_keyword = request.cookies.get('keyword').encode('latin-1').decode('utf-8')
         keyword = [filter_keyword.strip() for filter_keyword in filter_keyword.split(",")]
     else :
-        filter_keyword = 'None'
+        filter_keyword = 'no_keyword'
+        keyword = []
     analyzer = GithubAnalyzer(github_access_token, github_username, keyword)
     try:
-        result = analyzer.analyze()
+        result,pdf_links = analyzer.analyze()
     except:
         print('error')
-        result = {}
+        pass
     result_key = list(result.keys())
-    return render_template("github_result.html", filter_keyword=filter_keyword, folder_path=analyzer.log_path, result=result, result_key=result_key)
+
+
+    return render_template("github_result.html", filter_keyword=filter_keyword, folder_path=analyzer.log_path, result=result, result_key=result_key,pdf_link = pdf_links)

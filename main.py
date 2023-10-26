@@ -10,6 +10,7 @@ from module.network_module import network_module
 from module.github_module import github_module
 from module.report_module import report_module
 from module.reportlist_module import reportlist_module
+from module.reportPDF_module import reportPDF_module
 # import config as config
 
 
@@ -25,6 +26,7 @@ app.register_blueprint(network_module)
 app.register_blueprint(github_module)
 app.register_blueprint(report_module)
 app.register_blueprint(reportlist_module)
+app.register_blueprint(reportPDF_module)
 
 # app.config.from_object('config')
 
@@ -36,9 +38,9 @@ def index():
 def hello_flask():
     return render_template('loading.html')
 
-@app.route("/report")
-def report_flask():
-    return render_template('report.html')
+@app.route("/cveVuln")
+def cve_flask():
+    return render_template('cveVideo.html')
 
 if __name__ == "__main__":              
     app.run(host="0.0.0.0", port="5000" ,debug=True)
