@@ -1,0 +1,236 @@
+repo: market-auction
+path: components/ListingWrapper/ListingWrapper.tsx
+content:       key={nft.metadata.id}
+
+repo: market-auction
+path: components/NFT/NFTGrid.tsx
+content:           <div key={index} className={styles.nftContainer}>
+
+repo: market-auction
+path: components/NFT/NFTGrid.tsx
+content:             <Skeleton key={index} width={"100%"} height="312px" />
+
+repo: market-auction
+path: components/NFT/NFTGrid.tsx
+content:               key={nft.metadata.id}
+
+repo: market-auction
+path: components/NFT/NFTGrid.tsx
+content:               key={nft.metadata.id}
+
+repo: market-auction
+path: components/SaleInfo/SaleInfo.tsx
+content:   // useContract is a React hook that returns an object with the contract key.
+
+repo: market-auction
+path: components/SaleInfo/SaleInfo.tsx
+content:   // The value of the contract key is an instance of an NFT_COLLECTION on the blockchain.
+
+repo: market-auction
+path: components/Skeleton/Skeleton.module.css
+content: @keyframes pulse {
+
+repo: market-auction
+path: pages/profile/[address].tsx
+content:             <ListingWrapper listing={listing} key={listing.id} />
+
+repo: market-auction
+path: pages/profile/[address].tsx
+content:             <ListingWrapper listing={listing} key={listing.id} />
+
+repo: market-auction
+path: pages/token/[contractAddress]/[tokenId].tsx
+content:                   ([key, value]) => {
+
+repo: market-auction
+path: pages/token/[contractAddress]/[tokenId].tsx
+content:                       <div className={styles.traitContainer} key={key}>
+
+repo: market-auction
+path: pages/token/[contractAddress]/[tokenId].tsx
+content:                         <p className={styles.traitName}>{key}</p>
+
+repo: market-auction
+path: pages/token/[contractAddress]/[tokenId].tsx
+content:                       key={event.transaction.transactionHash}
+
+repo: market-auction
+path: pages/token/[contractAddress]/[tokenId].tsx
+content:                         key={event.transaction.transactionHash}
+
+repo: market-auction
+path: pages/upload.tsx
+content:                 <div className="nftBox" key={nft.metadata.id.toString()}>
+
+repo: market-auction
+path: yarn.lock
+content:     eslint-visitor-keys "^3.3.0"
+
+repo: market-auction
+path: yarn.lock
+content:     "@ethersproject/signing-key" "^5.7.0"
+
+repo: market-auction
+path: yarn.lock
+content: "@ethersproject/signing-key@5.7.0", "@ethersproject/signing-key@^5.7.0":
+
+repo: market-auction
+path: yarn.lock
+content:   resolved "https://registry.yarnpkg.com/@ethersproject/signing-key/-/signing-key-5.7.0.tgz#06b2df39411b00bc57c7c09b01d1e41cf1b16ab3"
+
+repo: market-auction
+path: yarn.lock
+content:     "@ethersproject/signing-key" "^5.7.0"
+
+repo: market-auction
+path: yarn.lock
+content:     "@ethersproject/signing-key" "^5.7.0"
+
+repo: market-auction
+path: yarn.lock
+content:     keyvaluestorage-interface "^1.0.0"
+
+repo: market-auction
+path: yarn.lock
+content:     "@radix-ui/react-use-escape-keydown" "1.0.2"
+
+repo: market-auction
+path: yarn.lock
+content: "@radix-ui/react-use-escape-keydown@1.0.2":
+
+repo: market-auction
+path: yarn.lock
+content:   resolved "https://registry.yarnpkg.com/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.0.2.tgz#09ab6455ab240b4f0a61faf06d4e5132c4d639f6"
+
+repo: market-auction
+path: yarn.lock
+content: "@stablelib/keyagreement@^1.0.1":
+
+repo: market-auction
+path: yarn.lock
+content:   resolved "https://registry.yarnpkg.com/@stablelib/keyagreement/-/keyagreement-1.0.1.tgz#4612efb0a30989deb437cd352cee637ca41fc50f"
+
+repo: market-auction
+path: yarn.lock
+content:     "@stablelib/keyagreement" "^1.0.1"
+
+repo: market-auction
+path: yarn.lock
+content:     "@typescript-eslint/visitor-keys" "5.58.0"
+
+repo: market-auction
+path: yarn.lock
+content:     "@typescript-eslint/visitor-keys" "5.58.0"
+
+repo: market-auction
+path: yarn.lock
+content: "@typescript-eslint/visitor-keys@5.58.0":
+
+repo: market-auction
+path: yarn.lock
+content:   resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.58.0.tgz#eb9de3a61d2331829e6761ce7fd13061781168b4"
+
+repo: market-auction
+path: yarn.lock
+content:     eslint-visitor-keys "^3.3.0"
+
+repo: market-auction
+path: yarn.lock
+content:     "@walletconnect/keyvaluestorage" "^1.0.2"
+
+repo: market-auction
+path: yarn.lock
+content:     keyvaluestorage-interface "^1.0.0"
+
+repo: market-auction
+path: yarn.lock
+content:     keyvaluestorage-interface "^1.0.0"
+
+repo: market-auction
+path: yarn.lock
+content: "@walletconnect/keyvaluestorage@^1.0.2":
+
+repo: market-auction
+path: yarn.lock
+content:   resolved "https://registry.yarnpkg.com/@walletconnect/keyvaluestorage/-/keyvaluestorage-1.0.2.tgz#92f5ca0f54c1a88a093778842ce0c874d86369c8"
+
+repo: market-auction
+path: yarn.lock
+content:     "@walletconnect/keyvaluestorage" "^1.0.2"
+
+repo: market-auction
+path: yarn.lock
+content:     evp_bytestokey "^1.0.3"
+
+repo: market-auction
+path: yarn.lock
+content:     path-key "^3.1.0"
+
+repo: market-auction
+path: yarn.lock
+content:     object-keys "^1.1.1"
+
+repo: market-auction
+path: yarn.lock
+content:     object-keys "^1.1.1"
+
+repo: market-auction
+path: yarn.lock
+content:     object-keys "^1.1.1"
+
+repo: market-auction
+path: yarn.lock
+content: eslint-visitor-keys@^3.3.0, eslint-visitor-keys@^3.4.0:
+
+repo: market-auction
+path: yarn.lock
+content:   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.4.0.tgz#c7f0f956124ce677047ddbc192a68f999454dedc"
+
+repo: market-auction
+path: yarn.lock
+content:     eslint-visitor-keys "^3.4.0"
+
+repo: market-auction
+path: yarn.lock
+content:     eslint-visitor-keys "^3.4.0"
+
+repo: market-auction
+path: yarn.lock
+content:     "@ethersproject/signing-key" "5.7.0"
+
+repo: market-auction
+path: yarn.lock
+content: evp_bytestokey@^1.0.3:
+
+repo: market-auction
+path: yarn.lock
+content:   resolved "https://registry.yarnpkg.com/evp_bytestokey/-/evp_bytestokey-1.0.3.tgz#7fcbdb198dc71959432efe13842684e0525acb02"
+
+repo: market-auction
+path: yarn.lock
+content: keyvaluestorage-interface@^1.0.0:
+
+repo: market-auction
+path: yarn.lock
+content:   resolved "https://registry.yarnpkg.com/keyvaluestorage-interface/-/keyvaluestorage-interface-1.0.0.tgz#13ebdf71f5284ad54be94bd1ad9ed79adad515ff"
+
+repo: market-auction
+path: yarn.lock
+content: object-keys@^1.1.1:
+
+repo: market-auction
+path: yarn.lock
+content:   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
+
+repo: market-auction
+path: yarn.lock
+content:     object-keys "^1.1.1"
+
+repo: market-auction
+path: yarn.lock
+content: path-key@^3.1.0:
+
+repo: market-auction
+path: yarn.lock
+content:   resolved "https://registry.yarnpkg.com/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
+

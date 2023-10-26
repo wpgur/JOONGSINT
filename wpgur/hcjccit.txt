@@ -1,0 +1,8 @@
+repo: hcjccit
+path: contact.html
+content:           연락처: 010-1212-3434 <br />
+
+repo: hcjccit
+path: contact.html
+content:           이메일: test@gmail.com <br />
+

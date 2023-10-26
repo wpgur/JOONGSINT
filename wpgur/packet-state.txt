@@ -1,0 +1,52 @@
+repo: packet-state
+path: main.cpp
+content:         struct ETHER * mac_key = (struct ETHER *)data;
+
+repo: packet-state
+path: main.cpp
+content:         struct IP * ip_key = (struct IP *)(data+14);   //ether header => 14
+
+repo: packet-state
+path: main.cpp
+content:         if(ntohs(mac_key->ether_type) == 0x0800){
+
+repo: packet-state
+path: main.cpp
+content:             memcpy(mac_a_r.MAC_a,mac_key->dst_MAC,sizeof(mac_a_r));
+
+repo: packet-state
+path: main.cpp
+content:             memcpy(mac_a_t.MAC_a,mac_key->src_MAC,sizeof(mac_a_t));
+
+repo: packet-state
+path: main.cpp
+content:             if (ip_.find(ip_key->dst_ip) == ip_.end()){
+
+repo: packet-state
+path: main.cpp
+content:                 ip_.insert(pair<uint32_t,VALUES>((ip_key->dst_ip),val));
+
+repo: packet-state
+path: main.cpp
+content:                 ip_[ip_key->dst_ip].Rx_packets  += 1;
+
+repo: packet-state
+path: main.cpp
+content:                 ip_[ip_key->dst_ip].Rx_bytes += header->len;
+
+repo: packet-state
+path: main.cpp
+content:             if (ip_.find(ip_key->src_ip) == ip_.end()){
+
+repo: packet-state
+path: main.cpp
+content:                 ip_.insert(pair<uint32_t,VALUES>((ip_key->src_ip),val));
+
+repo: packet-state
+path: main.cpp
+content:                 ip_[ip_key->src_ip].Tx_packets  += 1;
+
+repo: packet-state
+path: main.cpp
+content:                 ip_[ip_key->src_ip].Tx_bytes += header->len;
+

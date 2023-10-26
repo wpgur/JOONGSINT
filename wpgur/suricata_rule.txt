@@ -1,0 +1,2508 @@
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:55.441292  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45644 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:55.667237  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45646 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:55.833049  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45644 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.342608  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45644 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.514488  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45644 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.515274  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45650 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.524006  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45656 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.525451  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45658 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.537137  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45654 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.537271  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45652 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.599315  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45656 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.601122  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45650 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.602555  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45658 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.610002  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45654 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.610115  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45644 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.674821  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45652 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.679287  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45656 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.681771  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45654 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.681859  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45650 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.686368  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45644 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.686481  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45658 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.689579  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45652 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.691721  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45656 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.693238  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45650 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:24:56.761896  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45652 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:26:12.219127  [**] [1:10002:1] netflix.com access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:33744 -> 35.163.82.195:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:03.919525  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45938 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.218122  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45980 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.327554  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45980 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.328271  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45982 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.331884  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45984 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.337611  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45988 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.355178  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45990 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.498715  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45986 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.546326  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45980 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.549644  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45982 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.549810  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45990 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.555409  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45986 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.558736  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45988 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.610127  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45984 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.620226  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45986 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.621744  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45988 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.627718  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45984 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.628958  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45982 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.642711  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45984 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.664408  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45988 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.688866  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45984 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.723609  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45986 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/07/2021-23:55:10.866688  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45984 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-00:01:53.913525  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46184 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-00:07:44.947039  [**] [1:10004:1] tistory.com access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:55666 -> 121.53.105.234:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-00:07:45.210978  [**] [1:10004:1] tistory.com access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:55674 -> 121.53.105.234:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:48:40.052162  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:34872 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:48:40.052354  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:36152 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:48:49.345303  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:40829 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:48:49.345581  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:51455 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:48:50.584625  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:36617 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:48:50.584828  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:50820 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:48:50.601096  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:32867 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:48:50.601377  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:36349 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:41.137500  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:47474 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:49.270777  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:42015 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:49.271187  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39171 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:50.007966  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:45597 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:52.000841  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:42557 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:52.001298  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:43279 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:52.071304  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:46103 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:52.075474  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48348 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:52.080046  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:51281 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:52.123789  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:38677 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:52.535594  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:38712 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:52.535982  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:52060 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:53.043300  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:44143 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:53.049679  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:55448 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:53.406846  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:58606 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:53.407377  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:59481 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:53.874751  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:53016 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:51:53.875082  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:54214 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:00.838011  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:45015 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:00.844250  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:40062 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:01.579813  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:45533 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:01.655618  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:51374 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:01.656560  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48222 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:01.764930  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:57021 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:01.765859  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39960 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:01.844702  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:38693 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:01.921568  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:52883 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:02.023956  [**] [1:10007:1] Test dns_query option [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:35634 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:15.320269  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:47518 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:52:15.495055  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:47518 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:13.657484  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39096 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:13.658324  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:34756 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:17.870095  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:47435 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:17.870456  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:56335 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:17.875855  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:40939 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:17.877247  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:56125 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:18.458858  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:43627 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:18.459638  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:43222 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:18.493097  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48947 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:18.493831  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:55455 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:18.596268  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:40474 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:18.596483  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:51912 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:23.439237  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:44840 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:23.439913  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:49509 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:23.447026  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:49745 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:23.625914  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:40964 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:23.661187  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:41583 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.691989  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:55084 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.692289  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:60665 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.697262  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:35894 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.697846  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48361 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.700260  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:44510 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.700877  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:56163 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.727690  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:43541 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.728164  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:50122 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.909613  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39114 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.909908  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:45546 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.915055  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:44730 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.918506  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:41718 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.919033  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:56615 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.965634  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:57068 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:24.966057  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:60977 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:25.000202  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:36995 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:28.244650  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:54394 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:28.244973  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39045 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:28.269916  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:36821 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:28.270784  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:42687 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:28.271230  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:38910 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:28.476254  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:59915 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:28.477502  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:45181 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:28.485102  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:46715 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:28.760817  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:33385 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:28.761379  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:46690 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:28.770651  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:53848 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:29.124338  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:40063 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:29.124515  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:58949 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:54:29.144632  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:52304 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:55:33.493263  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:47652 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:55:44.603067  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:40381 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:55:44.672474  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:42749 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:55:44.672752  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:33045 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:56:58.660205  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:40596 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:56:58.661187  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:42873 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:56:59.277724  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:41727 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:56:59.278240  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48246 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:56:59.278607  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:47933 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:56:59.279001  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:51859 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:01.629873  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56254 -> 172.217.24.142:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:01.655869  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56256 -> 172.217.24.142:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:01.656890  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56258 -> 172.217.24.142:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:01.657137  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56262 -> 172.217.24.142:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:01.709813  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56260 -> 172.217.24.142:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:01.709984  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56264 -> 172.217.24.142:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:02.077892  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:55850 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:02.078516  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:55143 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:02.394293  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:42237 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:02.394825  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39391 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:02.514734  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:50444 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:02.515228  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48813 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:46.790076  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39592 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:46.790835  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:38986 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:46.796390  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:43334 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:46.991705  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:59258 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:47.876912  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:59473 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:47.878105  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:36396 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:47.949195  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:38466 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:47.950059  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:38718 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:47.970677  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44328 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:47.972985  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:47354 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:48.011449  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:59707 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:48.011823  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:49328 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:48.020572  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:41501 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:48.171774  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:46015 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:48.172090  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48838 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:48.188348  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:60427 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:48.191265  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:55586 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:48.191563  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:58180 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:48.213676  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:52489 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:57:48.261853  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48108 -> 175.158.0.135:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:59:45.262365  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39334 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:59:45.262690  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:54633 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-02:59:45.422327  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56082 -> 172.217.31.138:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:44.990386  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:41570 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:44.990886  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48442 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.046667  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42634 -> 125.209.222.142:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.243519  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54646 -> 183.111.26.117:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.243901  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54648 -> 183.111.26.117:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.246251  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:51592 -> 125.209.254.185:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.294378  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53874 -> 43.250.152.18:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.302941  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:35282 -> 211.216.46.24:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.754609  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:35210 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.755292  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:59334 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.793772  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44350 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.853612  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:37808 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.854071  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:33814 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.866975  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39731 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.867336  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:55053 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.867711  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:37455 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.882200  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56564 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.910692  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:35560 -> 117.52.137.136:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:45.950448  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:57279 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:46.063536  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:41828 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:46.064532  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48954 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:46.092495  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43838 -> 110.93.147.5:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:46.147035  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56104 -> 172.217.31.138:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:46.148105  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:57024 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:46.482012  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:50184 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:46.482431  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:37576 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:46.506914  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:37061 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:02:46.529837  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48138 -> 175.158.0.135:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:05:48.128023  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:53520 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:05:48.128306  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:53320 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:05:48.131768  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:40144 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:05:48.132368  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:38785 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:05:48.167319  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:56614 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:05:48.167921  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:46571 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:05:48.168072  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:44377 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:05:48.172447  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48759 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:43.832318  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:52277 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:43.833191  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39585 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:44.003221  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37544 -> 172.217.25.196:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:45.276530  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:54608 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:45.277086  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:54443 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:45.283963  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:37348 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:45.298531  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:50990 -> 223.130.195.200:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:45.423370  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:47037 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:45.439318  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:60865 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:45.441914  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54676 -> 183.111.26.117:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:45.455032  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:39300 -> 43.250.152.48:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:45.469502  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54680 -> 183.111.26.117:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:45.535893  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:38742 -> 125.209.254.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.338244  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:41856 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.338854  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:32990 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.367184  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44380 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.370390  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:42962 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.370711  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:44236 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.377850  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:38291 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.391955  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:36090 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.393281  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:47486 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.400868  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:56592 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.425772  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56594 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.491710  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:49130 -> 210.89.168.33:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.610346  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:45779 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.610707  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:54904 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.616812  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:43049 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.617671  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:51201 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.634795  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:45066 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.641288  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:34922 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.641664  [**] [1:10007:1] google.com acces [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:53833 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.657426  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48166 -> 175.158.0.135:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.658265  [**] [1:10008:1] naver.com access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:55960 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.678270  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43866 -> 110.93.147.5:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:16:46.779187  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:38798 -> 172.217.174.106:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:17:48.683651  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:35326 -> 211.216.46.24:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:17:48.716506  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:38760 -> 125.209.254.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:17:49.366392  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44398 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:17:49.737432  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48178 -> 175.158.0.135:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:48.998967  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57730 -> 223.130.195.95:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:49.132638  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54712 -> 183.111.26.117:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:49.141993  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58954 -> 43.250.152.61:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:49.145376  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54716 -> 183.111.26.117:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:49.210614  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54414 -> 43.250.152.16:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:49.221412  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:52172 -> 211.216.46.32:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:49.404887  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58956 -> 210.89.168.68:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:49.446929  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:36728 -> 175.158.5.161:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:49.451147  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58960 -> 210.89.168.68:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:49.537491  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:36732 -> 175.158.5.161:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:49.729669  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46606 -> 172.217.161.42:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:50.009161  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:36736 -> 175.158.5.161:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:50.702389  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44430 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:50.839701  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43914 -> 110.93.147.5:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:50.855326  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48214 -> 175.158.0.135:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:27:50.898075  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46612 -> 172.217.161.42:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:30:06.655803  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46618 -> 172.217.161.42:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:49.700680  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57768 -> 223.130.195.95:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:49.812352  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46624 -> 211.216.46.16:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:49.816849  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46626 -> 211.216.46.16:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:49.856399  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58994 -> 43.250.152.61:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:49.871153  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45318 -> 43.250.152.30:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:50.146888  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:49200 -> 210.89.168.33:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:50.162634  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:49204 -> 210.89.168.33:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:50.172520  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:55950 -> 211.216.46.13:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:50.361259  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56208 -> 172.217.31.138:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:51.512385  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44462 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:51.670194  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43944 -> 110.93.147.5:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:37:51.750532  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48244 -> 175.158.0.135:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:40:18.331712  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44468 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:40:18.331712  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44468 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:40:18.548687  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48248 -> 175.158.0.135:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:40:18.548687  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48248 -> 175.158.0.135:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:46:09.541315  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:49324 -> 54.230.62.61:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:46:09.714820  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:41038 -> 99.86.205.101:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:17.879707  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57804 -> 223.130.195.95:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:17.879707  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57804 -> 223.130.195.95:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:17.981903  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42568 -> 211.216.46.14:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:17.984319  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42570 -> 211.216.46.14:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:17.987101  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:47272 -> 43.250.152.55:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.038266  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45354 -> 43.250.152.30:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.196843  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:50344 -> 210.89.168.38:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.196843  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:50344 -> 210.89.168.38:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.229462  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:49238 -> 210.89.168.33:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.229462  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:49238 -> 210.89.168.33:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.265868  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:35428 -> 211.216.46.24:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.290699  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:49242 -> 210.89.168.33:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.290699  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:49242 -> 210.89.168.33:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.551343  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:60028 -> 172.217.175.10:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.888062  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:38540 -> 43.250.152.51:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.974662  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:49248 -> 210.89.168.33:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:18.974662  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:49248 -> 210.89.168.33:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:19.441888  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44504 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:19.441888  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44504 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:19.789818  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43986 -> 110.93.147.5:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:19.789818  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43986 -> 110.93.147.5:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:19.799464  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48286 -> 175.158.0.135:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:19.799464  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48286 -> 175.158.0.135:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:47.933025  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48544 -> 52.34.254.140:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-03:50:52.290029  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42160 -> 52.41.252.192:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:00:35.504534  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:33142 -> 52.10.136.43:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:00:35.902133  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:34516 -> 54.230.168.109:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:02:39.703592  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54960 -> 52.38.194.37:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:03:54.575601  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46616 -> 52.33.45.66:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:03:54.582840  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46614 -> 52.33.45.66:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:22.844069  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:51346 -> 216.58.220.106:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:48.681440  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57862 -> 223.130.195.95:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:48.681440  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57862 -> 223.130.195.95:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:48.857730  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44006 -> 101.79.137.158:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:48.870335  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44004 -> 101.79.137.158:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:48.958317  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:39160 -> 125.209.254.192:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:48.963839  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:50686 -> 43.250.152.36:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:48.968657  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56040 -> 211.216.46.13:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:49.029624  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:34548 -> 54.230.168.109:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:49.258821  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:60900 -> 210.89.168.39:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:49.258821  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:60900 -> 210.89.168.39:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:49.325233  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56766 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:49.325233  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56766 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:49.378361  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56768 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:49.378361  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56768 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:49.604319  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:51368 -> 216.58.220.106:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:50.133777  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56772 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:50.133777  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56772 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:50.916331  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44562 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:50.916331  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44562 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:51.413486  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:51374 -> 216.58.220.106:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:51.428620  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44046 -> 110.93.147.5:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:51.428620  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44046 -> 110.93.147.5:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:51.483850  [**] [1:10005:1] SURICATA Port 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42330 -> 210.89.172.40:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:09:51.483850  [**] [1:10009:1] naver 443 [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42330 -> 210.89.172.40:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:32.699064  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53070 -> 172.217.26.4:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:35.170536  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37908 -> 23.65.48.220:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:35.714580  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54744 -> 23.51.28.214:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:35.723346  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54742 -> 23.51.28.214:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:35.726596  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54740 -> 23.51.28.214:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:35.733545  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54738 -> 23.51.28.214:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:35.760356  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54736 -> 23.51.28.214:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:36.149780  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54756 -> 18.182.161.178:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:37.868981  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57350 -> 23.51.28.90:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:37.994905  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:55798 -> 23.59.151.192:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:37.995967  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:55800 -> 23.59.151.192:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:42.027524  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53148 -> 172.217.26.4:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:42.115730  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57410 -> 23.51.28.90:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:42.118274  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57412 -> 23.51.28.90:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:42.124105  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57408 -> 23.51.28.90:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:42.127988  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57406 -> 23.51.28.90:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:42.136401  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57404 -> 23.51.28.90:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:42.184805  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57414 -> 23.51.28.90:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:13:43.782391  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44714 -> 172.217.25.66:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:14:00.338967  [**] [1:10015:1] Los access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45176 -> 45.77.17.177:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:14:00.779244  [**] [1:10015:1] Los access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45180 -> 45.77.17.177:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:15:16.962773  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:50114 -> 151.101.90.24:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:15:19.707736  [**] [1:10015:1] Los access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45196 -> 45.77.17.177:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:15:19.848376  [**] [1:10015:1] Los access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45198 -> 45.77.17.177:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:25:01.918206  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37930 -> 172.217.25.196:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:25:02.015601  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37932 -> 172.217.25.196:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:25:06.084571  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48108 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:25:06.234704  [**] [1:10001:1] gilgil.net access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48108 -> 175.213.35.39:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:25:19.819964  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37998 -> 172.217.25.196:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:25:58.019768  [**] [1:10004:1] tistory.com access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57638 -> 121.53.105.234:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:25:58.232282  [**] [1:10004:1] tistory.com access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57650 -> 121.53.105.234:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:15.341808  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53140 -> 125.209.222.141:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:16.233704  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44952 -> 210.89.172.9:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:16.309732  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:33070 -> 210.89.168.39:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:16.351007  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57168 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:16.505311  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57170 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:16.527479  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:33076 -> 210.89.168.39:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:16.554400  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42724 -> 210.89.172.40:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:16.572430  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44444 -> 110.93.147.5:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:24.536851  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58196 -> 172.217.25.78:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:24.570112  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:55006 -> 172.217.161.78:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:24.604183  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:52128 -> 172.217.175.2:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:34.631604  [**] [1:10007:1] github access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:39446 -> 15.164.81.167:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:36.363913  [**] [1:10007:1] github access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53348 -> 54.180.75.25:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:26:36.461765  [**] [1:10007:1] github access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:39464 -> 15.164.81.167:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:27:38.527884  [**] [1:10008:1] jungbu access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43682 -> 210.125.239.51:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:27:38.729785  [**] [1:10008:1] jungbu access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43684 -> 210.125.239.51:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:27:38.733056  [**] [1:10008:1] jungbu access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43686 -> 210.125.239.51:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:27:38.740385  [**] [1:10008:1] jungbu access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43688 -> 210.125.239.51:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:27:38.743052  [**] [1:10008:1] jungbu access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43690 -> 210.125.239.51:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:27:38.748591  [**] [1:10008:1] jungbu access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43692 -> 210.125.239.51:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:06.923203  [**] [1:10009:1] webhacking access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46806 -> 202.182.106.159:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:15.629962  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43816 -> 104.74.156.226:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:15.927265  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:55236 -> 23.51.28.214:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:17.278021  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43830 -> 104.74.156.226:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:17.297737  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57844 -> 23.51.28.90:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:17.353729  [**] [1:10010:1] nike access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57512 -> 23.213.13.96:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:21.129162  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53102 -> 216.58.197.162:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:27.598881  [**] [1:10004:1] tistory.com access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:60268 -> 211.231.99.250:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:27.626402  [**] [1:10011:1] my blog access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:48810 -> 211.231.99.250:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:40.345033  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58388 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:40.924382  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58392 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:40.940637  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58394 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:40.949248  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58396 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:40.954854  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58398 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:40.997040  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58402 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.001377  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58404 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.009202  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58400 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.041156  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58406 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.044852  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58410 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.050434  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58412 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.078968  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58414 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.097060  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58416 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.102010  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58418 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.123171  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58420 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.123251  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58422 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.129048  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58424 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.158779  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58426 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.171559  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58428 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.183432  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58430 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.202001  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58434 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.206501  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58432 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.228398  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58436 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.230637  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58438 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.253745  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58444 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.255535  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58440 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.258007  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58442 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.261811  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58446 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.298484  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58448 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.409746  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58454 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.420438  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58452 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.568255  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58456 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.569640  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58458 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.572632  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58460 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.724854  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58466 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:28:41.928883  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58468 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.226322  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:40390 -> 125.141.132.118:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.366654  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56662 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.366880  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56664 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.369844  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56666 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.369955  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56660 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.370725  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56670 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.370973  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56668 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.375045  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56662 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.377006  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56666 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.382416  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56660 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.383373  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56662 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.383601  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56664 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.385309  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56666 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.390878  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56660 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.392371  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56664 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.394401  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56662 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.395764  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56666 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.398890  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56670 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.400845  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56662 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.401728  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56664 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.405578  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56660 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.406350  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56666 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.407846  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56670 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.408479  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56668 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.409043  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:60276 -> 125.141.132.107:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.409551  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56662 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.413833  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56660 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.424027  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43750 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.424036  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43746 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.425636  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43744 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.428235  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43754 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.438738  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43758 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.438953  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43760 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.440059  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43762 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.446694  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43766 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.446730  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56668 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.447721  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43764 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.447901  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56670 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.457091  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:40388 -> 125.141.132.118:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.460035  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43748 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.460204  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43752 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.465419  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43756 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.473335  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43768 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.496305  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56668 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.500229  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56670 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.553463  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:36532 -> 172.217.26.14:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.822125  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56668 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.874018  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:33686 -> 211.202.2.7:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.903062  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43776 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.956846  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:59032 -> 125.141.132.109:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.957009  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:40446 -> 125.141.132.118:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:47.982619  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:55506 -> 121.53.218.30:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:48.108540  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43790 -> 125.141.132.101:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:48.149691  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:39134 -> 151.101.24.134:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:48.175188  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45576 -> 125.141.132.104:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:29:48.409946  [**] [1:10014:1] iot recipes access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56668 -> 125.141.132.57:80
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:30:10.115256  [**] [1:10015:1] Los access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45870 -> 45.77.17.177:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:30:18.725917  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58602 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:30:19.375405  [**] [1:10012:1] bob access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58604 -> 211.115.80.131:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:30:50.588205  [**] [1:10017:1] hack ctf access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53762 -> 14.46.30.205:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:30:51.101348  [**] [1:10017:1] hack ctf access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53766 -> 14.46.30.205:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:30:51.101479  [**] [1:10017:1] hack ctf access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53768 -> 14.46.30.205:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:30:51.103422  [**] [1:10017:1] hack ctf access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53770 -> 14.46.30.205:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:30:51.105477  [**] [1:10017:1] hack ctf access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53772 -> 14.46.30.205:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:30:51.113679  [**] [1:10017:1] hack ctf access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:53774 -> 14.46.30.205:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:31:11.609097  [**] [1:10018:1] rootme access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46152 -> 212.129.28.16:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:31:11.857049  [**] [1:10018:1] rootme access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46154 -> 212.129.28.16:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:31:21.553230  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37236 -> 210.89.168.35:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:31:21.553230  [**] [1:10020:1] papago access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37236 -> 210.89.168.35:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:31:22.442528  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44742 -> 216.58.197.142:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:31:22.632981  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43250 -> 210.89.172.40:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:31:22.773672  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37020 -> 125.209.226.239:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:31:32.069438  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58118 -> 117.52.137.140:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:31:32.709605  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57720 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:31:33.129350  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37040 -> 125.209.226.239:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:31:33.163267  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43274 -> 210.89.172.40:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:32:02.270173  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42736 -> 210.89.172.84:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:32:03.759608  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43298 -> 210.89.172.40:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:32:03.759918  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37068 -> 125.209.226.239:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:32:03.902835  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:60672 -> 117.52.137.138:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:32:04.046604  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56876 -> 210.89.172.76:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:32:24.912439  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42918 -> 210.89.168.217:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:34:47.194223  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:47266 -> 172.217.31.164:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:34:49.910947  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:39032 -> 216.58.220.98:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:37:50.460299  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:51140 -> 210.89.168.67:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:37:50.460299  [**] [1:10020:1] papago access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:51140 -> 210.89.168.67:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:37:53.404001  [**] [1:10017:1] hack ctf access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:54076 -> 14.46.30.205:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:42:35.808038  [**] [1:10016:1] gitlab.access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:34310 -> 172.65.251.78:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:42:36.157060  [**] [1:10016:1] gitlab.access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56666 -> 151.101.2.49:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:42:37.605590  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:35304 -> 172.217.175.68:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:42:39.927560  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:35218 -> 172.217.27.66:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:42:41.965450  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:35360 -> 172.217.175.68:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:42:42.123250  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:35362 -> 172.217.175.68:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:42:42.344203  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:35366 -> 172.217.175.68:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:42:42.559883  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:35368 -> 172.217.175.68:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:42:42.843980  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:35372 -> 172.217.175.68:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:43:54.013505  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58572 -> 117.52.137.140:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:43:54.538040  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58180 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:43:55.078300  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37500 -> 125.209.226.239:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:43:55.105997  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:43734 -> 210.89.172.40:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:44:29.474111  [**] [1:10019:1] lecture access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:59950 -> 13.124.77.38:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:50:00.762928  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46496 -> 216.58.197.132:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:50:00.929081  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:46498 -> 216.58.197.132:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:54:22.517607  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58136 -> 216.58.220.132:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:54:24.395796  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58140 -> 216.58.220.132:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:54:25.915145  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:47554 -> 216.58.220.142:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:54:26.179791  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:50218 -> 172.217.175.34:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:55:07.240517  [**] [1:10022:1] wheather access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:47902 -> 121.78.33.161:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:55:07.240802  [**] [1:10022:1] wheather access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:47904 -> 121.78.33.161:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:55:15.868299  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58938 -> 117.52.137.140:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:55:15.868299  [**] [1:10021:1] naver_comic access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58938 -> 117.52.137.140:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:55:16.658069  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58540 -> 210.89.168.65:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:55:18.139387  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:37860 -> 125.209.226.239:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:55:18.178228  [**] [1:10005:1] naver access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:44094 -> 210.89.172.40:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:58:19.538114  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58354 -> 216.58.220.132:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:58:24.119510  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:56446 -> 172.217.25.68:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:58:25.804395  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:50888 -> 216.58.197.130:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:58:25.940328  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:50778 -> 172.217.26.46:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:58:31.103328  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:52017 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:58:31.104319  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:60940 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:58:31.117124  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:42351 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:58:31.649155  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48108 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:58:31.649930  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:55575 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:58:31.677171  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:35782 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:09.728841  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:44086 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:09.729154  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:35912 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.238079  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48531 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.238448  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:46295 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.244911  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:43017 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.245411  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:56375 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.246356  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:43951 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.254030  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:32811 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.284325  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:40858 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.285737  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:38999 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.296667  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:47262 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.296723  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:37318 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.790313  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39367 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:10.791828  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48195 -> 210.220.163.82:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-04:59:50.274295  [**] [1:10006:1] google access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:58524 -> 216.58.220.132:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:00:16.097590  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:33466 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:00:16.098053  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:34228 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:00:16.136929  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:60789 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:00:16.974243  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:41477 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:00:18.056823  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:50822 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:00:18.057326  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:33828 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:09.335966  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:35537 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:09.336328  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:39263 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:09.343640  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:34348 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:09.344427  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:51226 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:09.345414  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:35751 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:09.348720  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:54020 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:09.349258  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:54777 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:09.349789  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:46531 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:09.647186  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:59141 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:09.648082  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:58488 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:10.155226  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:38458 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:10.156622  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:59268 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:10.169824  [**] [1:10013:1] kakao dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:44769 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:38.367658  [**] [1:10013:1] kakaocorp dns access [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.35.105:48263 -> 219.250.36.130:53
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:45.699791  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:38038 -> 211.231.99.17:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:45.754647  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:60544 -> 203.133.167.16:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:45.984172  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:36862 -> 203.133.172.30:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.243789  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:41008 -> 203.133.167.14:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.423386  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:41010 -> 203.133.167.14:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.423565  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:41012 -> 203.133.167.14:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.423673  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:41014 -> 203.133.167.14:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.434534  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:41016 -> 203.133.167.14:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.434746  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:41018 -> 203.133.167.14:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.434937  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:41020 -> 203.133.167.14:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.570041  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:41024 -> 203.133.167.14:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.835193  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42446 -> 211.249.200.132:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.835268  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42448 -> 211.249.200.132:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.835334  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42450 -> 211.249.200.132:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:46.857195  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42452 -> 211.249.200.132:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:47.061090  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57690 -> 110.76.140.136:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:47.061382  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57688 -> 110.76.140.136:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:47.061613  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57692 -> 110.76.140.136:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:47.268035  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57694 -> 110.76.140.136:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:47.268351  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57696 -> 110.76.140.136:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:47.268504  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:42464 -> 211.249.200.132:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:48.150219  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57702 -> 110.76.140.136:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:48.150425  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:57704 -> 110.76.140.136:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:48.172804  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45258 -> 211.231.100.211:443
+
+repo: suricata_rule
+path: fast.log
+content: 01/08/2021-05:01:48.180136  [**] [1:10005:1] daum access [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.35.105:45260 -> 211.231.100.211:443
+

@@ -1,0 +1,12 @@
+repo: SCP_mentoring
+path: test.md
+content: email : truebird@gmail.com 
+
+repo: SCP_mentoring
+path: test.md
+content: phone : 010-0101-0101
+
+repo: SCP_mentoring
+path: test.md
+content: iP : 112.32.112.53
+

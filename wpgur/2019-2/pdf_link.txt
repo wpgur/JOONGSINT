@@ -1,0 +1,3 @@
+2019_09_24/pdf/3_양경모_SideBar.pdf: https://github.com/wpgur/2019-2/blob/master/2019_09_24/pdf/3_양경모_SideBar.pdf?raw=true
+2019_09_24/pdf/3_표상영_AndroidXFrida.pdf: https://github.com/wpgur/2019-2/blob/master/2019_09_24/pdf/3_표상영_AndroidXFrida.pdf?raw=true
+2019_10_01/pdf/1_우제혁_웹공부 어디서부터 시작하지.pdf: https://github.com/wpgur/2019-2/blob/master/2019_10_01/pdf/1_우제혁_웹공부 어디서부터 시작하지.pdf?raw=true

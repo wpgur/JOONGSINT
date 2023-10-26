@@ -1,0 +1,16 @@
+repo: AWS-Flask-uwsgi-Nginx-mysql
+path: db/init.sql
+content: 	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+
+repo: AWS-Flask-uwsgi-Nginx-mysql
+path: db/init.sql
+content: 	UNIQUE KEY EMAIL (email));
+
+repo: AWS-Flask-uwsgi-Nginx-mysql
+path: flask/app.py
+content:     app.run(host='0.0.0.0', debug=True)
+
+repo: AWS-Flask-uwsgi-Nginx-mysql
+path: flask/requirements.txt
+content: uWSGI==2.0.19.1
+

@@ -1,0 +1,8 @@
+repo: wpgur_profile
+path: index.html
+content:               <div class="flex who-item-value">010-4149-6804</div>
+
+repo: wpgur_profile
+path: index.html
+content:               <div class="flex who-item-value">wpgur0510@gamil.com</div>
+

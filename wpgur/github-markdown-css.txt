@@ -1,0 +1,24 @@
+repo: github-markdown-css
+path: index.html
+content: <pre><code>&lt;address@example.com&gt;
+
+repo: github-markdown-css
+path: index.html
+content: <p>which will render in a browser as a clickable link to "<a href="mailto:address@example.com">address@example.com</a>".</p>
+
+repo: github-markdown-css
+path: index.html
+content: 		<a href="https://github.com/sindresorhus/github-markdown-css"><img style="position: absolute; top: 0; right: 0; border: 0; width: 149px; height: 149px;" src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-graphite@2x.png" alt="Fork me on GitHub"></a>
+
+repo: github-markdown-css
+path: license
+content: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+
+repo: github-markdown-css
+path: package.json
+content: 		"email": "sindresorhus@gmail.com",
+
+repo: github-markdown-css
+path: package.json
+content: 	"keywords": [
+

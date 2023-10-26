@@ -1,0 +1,2 @@
+91913622_HelloAndroid_송태현.pdf: https://github.com/songtaehyeon/SCP_mentoring/blob/master/91913622_HelloAndroid_송태현.pdf?raw=true
+test/tistory/sample1.pdf: https://github.com/songtaehyeon/SCP_mentoring/blob/master/test/tistory/sample1.pdf?raw=true
