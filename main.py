@@ -10,7 +10,7 @@ from module.network_module import network_module
 from module.github_module import github_module
 from module.report_module import report_module
 from module.reportlist_module import reportlist_module
-from module.reportPDF_module import reportPDF_module
+# from module.reportPDF_module import reportPDF_module
 # import config as config
 
 
@@ -26,7 +26,7 @@ app.register_blueprint(network_module)
 app.register_blueprint(github_module)
 app.register_blueprint(report_module)
 app.register_blueprint(reportlist_module)
-app.register_blueprint(reportPDF_module)
+# app.register_blueprint(reportPDF_module)
 
 # app.config.from_object('config')
 
