@@ -8,3 +8,5 @@ openai
 dnspython
 python-whois
 pandas
+python-docx
+comtypes
