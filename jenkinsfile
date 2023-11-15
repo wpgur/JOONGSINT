@@ -18,6 +18,8 @@ pipeline {
     ECR_PATH = '871065065486.dkr.ecr.us-east-2.amazonaws.com'
     IMAGE_NAME = '871065065486.dkr.ecr.us-east-2.amazonaws.com/jenkinsflask'
     REGION = 'us-east-2'
+    gitEmail = 'jonggleac@gmail.com'
+    gitName = 'osintdevops'
   }
 
   stages{
@@ -110,6 +112,29 @@ pipeline {
         failure {
           error 'fail upload image'
         }
+      }
+    }
+
+
+    //도커 이미지 태그를 깃허브에 push
+    stage('Deploy') {
+      steps {
+
+        git credentialsId: "$REPOSITORY_CREDENTIAL_ID",
+        git url: "$REPOSITORY_URL",
+        branch: "main"
+
+
+        sh'''
+        git config --global user.email ${gitEmail}
+        git config --global user.name ${gitName}
+        cd prod && kustomize edit set image ${ECR_PATH}:${BUILD_NUMBER}
+        git add kustomize.yaml
+        git status
+        git commit -m 'update the image tag'
+        git branch -M main
+        git push -u origin main
+        '''
       }
     }
   }
