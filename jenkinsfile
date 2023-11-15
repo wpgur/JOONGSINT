@@ -116,6 +116,7 @@ pipeline {
 
     //도커 이미지 태그를 깃허브에 push
     stage('Deploy') {
+      steps{
       sh('''
           git config --global user.name "wpgur"
           git config --global user.email "wpgur0510@naver.com"
@@ -137,6 +138,7 @@ pipeline {
             git commit -m "update the image tag"
             git push origin HAED:main
             ''')
+      }
     }
   }
 }
