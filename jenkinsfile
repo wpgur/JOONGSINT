@@ -18,8 +18,6 @@ pipeline {
     ECR_PATH = '871065065486.dkr.ecr.us-east-2.amazonaws.com'
     IMAGE_NAME = '871065065486.dkr.ecr.us-east-2.amazonaws.com/jenkinsflask'
     REGION = 'us-east-2'
-    gitEmail = 'jonggleac@gmail.com'
-    gitName = 'osintdevops'
   }
 
   stages{
@@ -118,24 +116,27 @@ pipeline {
 
     //도커 이미지 태그를 깃허브에 push
     stage('Deploy') {
-      steps {
+      sh('''
+          git config --global user.name "wpgur"
+          git config --global user.email "wpgur0510@naver.com"
+          git chechout -B main
+      ''')
 
-        git credentialsId: "$REPOSITORY_CREDENTIAL_ID",
-        git url: "$REPOSITORY_URL",
-        branch: "main"
 
+        script {
+          previousTAG = sh(script: 'echo `expr ${BUILD_NUMBER} - 1`', returnStdout: true).trim()
+        }
 
-        sh'''
-        git config --global user.email ${gitEmail}
-        git config --global user.name ${gitName}
-        cd prod && kustomize edit set image ${ECR_PATH}:${BUILD_NUMBER}
-        git add kustomize.yaml
-        git status
-        git commit -m 'update the image tag'
-        git branch -M main
-        git push -u origin main
-        '''
-      }
+        withCredentials([usernamePassword(credentialsId: 'gitbub-signin', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')])
+            sh('''
+            git config --local credential.helper "!f() { echo username=\\$GIT_USERNAME; echo password=\\$GIT_PASSWORD; }; f"
+            echo ${previousTAG}
+            sed -i 's/${ECR_PATH}:${previousTAG}/${ECR_PATH}:${BUILD_NUMBER}/g' k8s-manifests/flask-deployment.yaml
+            git add k8s-manifests/flask-deployment.yaml
+            git status
+            git commit -m "update the image tag"
+            git push origin HAED:main
+            ''')
     }
   }
 }
