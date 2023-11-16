@@ -1,11 +1,11 @@
 from flask import Flask, session, render_template, redirect, request, url_for, Blueprint
 import pymysql
  
-mysql_host = 'localhost'
-mysql_port=3308
-mysql_user = 'root'
-mysql_password = ''
-mysql_db = 'db_board'
+mysql_host = 'mysql'
+mysql_port=3306
+mysql_user = 'mysql-root'
+mysql_password = 'root'
+mysql_db = 'osint'
 
 login_module = Blueprint("login_module", __name__)
 
