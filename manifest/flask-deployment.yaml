@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: osint-flask
+  namespace: default
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: osint-flask
+  template:
+    metadata:
+      labels:
+        app: osint-flask
+    spec:
+      containers:
+        - name: osint-flask
+          image: 871065065486.dkr.ecr.us-east-2.amazonaws.com/jenkinsflask:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5000
