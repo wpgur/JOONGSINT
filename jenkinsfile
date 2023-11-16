@@ -136,7 +136,7 @@ pipeline {
             git add manifest/flask-deployment.yaml
             git status
             git commit -m "update the image tag"
-            git push origin HAED:main
+            git push origin main
             ''')
         }
       }
