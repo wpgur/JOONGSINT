@@ -125,14 +125,14 @@ pipeline {
 
 
         script {
-          previousTAG = sh(script: 'echo `expr ${BUILD_NUMBER} - 1`', returnStdout: true).trim()
+          previousTAG = sh(script: 'echo "expr ${BUILD_NUMBER} - 1"', returnStdout: true).trim()
         }
 
         withCredentials([usernamePassword(credentialsId: 'github-signin', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]) {
             sh('''
             git config --local credential.helper "!f() { echo username=\\$GIT_USERNAME; echo password=\\$GIT_PASSWORD; }; f"
             echo ${previousTAG}
-            sed -i "s|${ECR_PATH}/jenkinsflask:latest|${ECR_PATH}/jenkinsflask:${BUILD_NUMBER}|g" manifest/flask-deployment.yaml
+            sed -i "s|${ECR_PATH}/jenkinsflask:${previousTAG}|${ECR_PATH}/jenkinsflask:${BUILD_NUMBER}|g" manifest/flask-deployment.yaml
             git add manifest/flask-deployment.yaml
             git status
             git commit -m "update the image tag"
