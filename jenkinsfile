@@ -129,9 +129,11 @@ pipeline {
         }
 
         withCredentials([usernamePassword(credentialsId: 'github-signin', usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD')]) {
+            tag = previousTAG
+
             sh('''
             git config --local credential.helper "!f() { echo username=\\$GIT_USERNAME; echo password=\\$GIT_PASSWORD; }; f"
-            echo "${previousTAG}"
+            echo '${tag}'
             sed -i "s|${ECR_PATH}/jenkinsflask:latest|${ECR_PATH}/jenkinsflask:${BUILD_NUMBER}|g" manifest/flask-deployment.yaml
             git add manifest/flask-deployment.yaml
             git status
