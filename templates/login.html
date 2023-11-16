@@ -27,13 +27,14 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Login</h5>
-        <form>
+        <form action="/login" method="POST">
           <div class="form-group">
             <label for="username">Username</label>
             <input
               type="text"
               class="form-control"
-              id="username"
+              id="id"
+              name="id"
               placeholder="Enter username"
             />
           </div>
@@ -42,7 +43,8 @@
             <input
               type="password"
               class="form-control"
-              id="password"
+              id="pw"
+              name="pw"
               placeholder="Enter password"
             />
           </div>

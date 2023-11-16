@@ -10,3 +10,4 @@ python-whois
 pandas
 python-docx
 comtypes
+pymysql
