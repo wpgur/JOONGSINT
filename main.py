@@ -38,6 +38,14 @@ def index():
 def hello_flask():
     return render_template('loading.html')
 
+@app.route("/login")
+def login():
+    return render_template('login.html')
+
+@app.route("/register")
+def register():
+    return render_template('register.html')
+
 @app.route("/cveVuln")
 def cve_flask():
     return render_template('cveVideo.html')
