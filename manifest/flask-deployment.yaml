@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: osint-flask
-          image: 871065065486.dkr.ecr.us-east-2.amazonaws.com/jenkinsflask:87
+          image: 871065065486.dkr.ecr.us-east-2.amazonaws.com/jenkinsflask:88
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
