@@ -133,7 +133,7 @@ pipeline {
               #!/usr/bin/env bash
               git config --local credential.helper "!f() { echo username=\\$GIT_USERNAME; echo password=\\$GIT_PASSWORD; }; f"
               echo ${previousTAG}
-              sed -i "s|${ECR_PATH}*|${ECR_PATH}/jenkinsflask:${BUILD_NUMBER}|g" manifest/flask-deployment.yaml
+              sed -i "s|${ECR_PATH}.*|${ECR_PATH}/jenkinsflask:${BUILD_NUMBER}|g" manifest/flask-deployment.yaml
               git add manifest/flask-deployment.yaml
               git status
               git commit -m "update the image tag"
