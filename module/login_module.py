@@ -1,11 +1,11 @@
 from flask import Flask, session, render_template, redirect, request, url_for, Blueprint
 import pymysql
  
-mysql_host = 'mysql'
+mysql_host = 'localhost'
 mysql_port=3306
-mysql_user = 'mysql-root'
-mysql_password = 'root'
-mysql_db = 'osint'
+mysql_user = 'root'
+mysql_password = '7575'
+mysql_db = 'devops'
 
 login_module = Blueprint("login_module", __name__)
 
@@ -21,7 +21,7 @@ def login_result():
 
         cursor = db.cursor()
 
-        sql = "SELECT id FROM member WHERE id = %s AND password = %s"
+        sql = "SELECT id FROM login_table WHERE id = %s AND pw = %s"
         value = (id, pw)
 
         cursor.execute(sql, value)
@@ -32,10 +32,9 @@ def login_result():
 
         if data:
             session['login_user'] = data[0]
+            return render_template("index.html", user_id=data[0])
         else:
             error = 'invalid input data detected !'
-        return render_template("index.html", user_id=data[0])
+            return render_template("error.html", error=error)
         
-    
-    
     return render_template("login.html")

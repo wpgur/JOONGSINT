@@ -2,18 +2,21 @@ from flask import Flask, session, render_template, redirect, request, url_for, B
 import pymysql
  
 mysql_host = 'localhost'
-mysql_port=3308
+mysql_port = 3306
 mysql_user = 'root'
-mysql_password = ''
-mysql_db = 'db_board'
+mysql_password = '7575'
+mysql_db = 'devops'
 
 register_module = Blueprint("register_module", __name__)
+
+@register_module.route('/logout')
+def logout():
+    session.pop('username', None)
+    return redirect(url_for('index'))
 
 @register_module.route("/register", methods=['GET', 'POST'])
 def register_result():
     if request.method == 'POST':
-        error = None
-
         db = pymysql.connect(host=mysql_host,port=mysql_port, user=mysql_user, password=mysql_password, db=mysql_db, charset='utf8')
 
         id = request.form['id']
@@ -21,21 +24,15 @@ def register_result():
 
         cursor = db.cursor()
 
-        sql = "SELECT id FROM member WHERE id = %s AND password = %s"
-        value = (id, pw)
-
-        cursor.execute(sql, value)
-
+        cursor.execute("SELECT * FROM login_table WHERE id = %s", (id,))
         data = cursor.fetchone()
-        db.commit()
-        db.close()
 
-        if data:
-            session['login_user'] = data[0]
+        if data is None:
+            cursor.execute("INSERT INTO login_table (id, pw) VALUES (%s, %s)", (id, pw))
+            db.commit()
+            db.close()
+            return render_template("register_success.html")
         else:
-            error = 'invalid input data detected !'
-        return render_template("login.html", user_id=data[0])
+            return render_template("register_fail.html")
         
-    
-    
     return render_template("register.html")
