@@ -137,8 +137,7 @@ pipeline {
               git add manifest/flask-deployment.yaml
               git status
               git commit -m "update the image tag"
-              git remote add upstream https://github.com/wpgur/k8s-manifests.git
-              git push upstream HEAD:main
+              git push origin dev
             ''')
         }
       }
