@@ -120,7 +120,7 @@ pipeline {
       sh('''
           git config --global user.name "wpgur"
           git config --global user.email "wpgur0510@naver.com"
-          git checkout -B main
+          git checkout -b dev
       ''')
 
 
