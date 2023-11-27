@@ -119,7 +119,7 @@ pipeline {
           // Save the result to a variable
           def trivyResult = sh(script: '''
               echo "$(date +"%Y-%m-%d %H:%M:%S") -> $(trivy image --quiet --format template --template '{{- $critical := 0 }}{{- $high := 0 }}{{- range . }}{{- range .Vulnerabilities }}{{- if eq .Severity "CRITICAL" }}{{- $critical = add $critical 1 }}{{- end }}{{- if eq .Severity "HIGH" }}{{- $high = add $high 1 }}{{- end }}{{- end }}{{- end }}Critical: {{ $critical }}, High: {{ $high }}' 871065065486.dkr.ecr.us-east-2.amazonaws.com/jenkinsflask)"
-          ''')
+          ''').trim()
 
           // Print the result to the console
           echo "Trivy Scan Result: ${trivyResult}"
