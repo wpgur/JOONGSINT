@@ -15,7 +15,18 @@ spec:
     spec:
       containers:
         - name: osint-flask
-          image: 871065065486.dkr.ecr.us-east-2.amazonaws.com/jenkinsflask:89
+          image: 871065065486.dkr.ecr.us-east-2.amazonaws.com/jenkinsflask:17
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
+          env:
+            - name: MYSQL_HOST
+              value: 'mysql.storage.svc.cluster.local' # MySQL 서비스의 이름
+            - name: MYSQL_PORT
+              value: '3306' # MySQL 포트
+            - name: MYSQL_USER
+              value: 'root'
+            - name: MYSQL_PASSWORD
+              value: password
+            - name: MYSQL_DB
+              value: 'petclinic' # MySQL 데이터베이스 이름
