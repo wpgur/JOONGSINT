@@ -21,7 +21,7 @@ spec:
             - containerPort: 5000
           env:
             - name: MYSQL_HOST
-              value: 'mysql.storage.svc.cluster.local' # MySQL 서비스의 이름
+              value: 'mysql' # MySQL 서비스의 이름
             - name: MYSQL_PORT
               value: '3306' # MySQL 포트
             - name: MYSQL_USER

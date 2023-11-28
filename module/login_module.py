@@ -2,7 +2,7 @@ from flask import Flask, session, render_template, redirect, request, url_for, B
 import pymysql
 import os
  
-mysql_host = os.environ.get('MYSQL_HOST', 'mysql.storage.svc.cluster.local')
+mysql_host = os.environ.get('MYSQL_HOST', 'mysql')
 mysql_port= int(os.environ.get('MYSQL_PORT', 3306))
 mysql_user =  os.environ.get('MYSQL_USER', 'root')
 mysql_password = os.environ.get('MYSQL_PASSWORD', 'password')
