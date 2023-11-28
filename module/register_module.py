@@ -1,11 +1,12 @@
 from flask import Flask, session, render_template, redirect, request, url_for, Blueprint
 import pymysql
+import os
  
-mysql_host = 'localhost'
-mysql_port = 3306
-mysql_user = 'root'
-mysql_password = '7575'
-mysql_db = 'devops'
+mysql_host = os.environ.get('MYSQL_HOST', 'mysql')
+mysql_port= int(os.environ.get('MYSQL_PORT', 3306))
+mysql_user =  os.environ.get('MYSQL_USER', 'root')
+mysql_password = os.environ.get('MYSQL_PASSWORD', 'password')
+mysql_db = os.environ.get('MYSQL_DB', 'petclinic')
 
 register_module = Blueprint("register_module", __name__)
 
