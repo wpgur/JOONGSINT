@@ -3,7 +3,7 @@ import pymysql
 import os
  
 mysql_host = os.environ.get('MYSQL_HOST', 'mysql')
-mysql_port= int(os.environ.get('MYSQL_PORT', 3306))
+mysql_port= int(os.environ.get('MYSQL_PORT', 3308))
 mysql_user =  os.environ.get('MYSQL_USER', 'root')
 mysql_password = os.environ.get('MYSQL_PASSWORD', 'password')
 mysql_db = os.environ.get('MYSQL_DB', 'petclinic')
