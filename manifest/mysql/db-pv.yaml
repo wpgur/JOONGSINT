@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-statefulset-mysql-0
+  namespace: default
+spec:
+  storageClassName: 'my-storage'
+  capacity:
+    storage: 2Gi
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Delete
+  hostPath:
+    path: /tmp/k8s-pv #호스트의 경로를 지정한다. 로컬의 어떤 위치로 저장할지 지정할 수 있다.
+    type: DirectoryOrCreate
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: 'kubernetes.io/hostname'
+              operator: 'In'
+              values:
+                - GLW4XPMQ2X
