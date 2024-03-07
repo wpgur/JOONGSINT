@@ -1,4 +1,5 @@
-from flask import Flask, render_template 
+from flask import Flask, render_template , session
+from datetime import timedelta
 from module.my_calc_module import my_calc_module
 from module.sns_module import sns_module
 from module.insta_module import insta_module
@@ -12,6 +13,7 @@ from module.report_module import report_module
 from module.reportlist_module import reportlist_module
 from module.login_module import login_module
 from module.register_module import register_module
+from module.user_setting_module import user_setting_module
 # from module.reportPDF_module import reportPDF_module
 # import config as config
 
@@ -30,15 +32,18 @@ app.register_blueprint(report_module)
 app.register_blueprint(reportlist_module)
 app.register_blueprint(login_module)
 app.register_blueprint(register_module)
+app.register_blueprint(user_setting_module)
 
 # app.register_blueprint(reportPDF_module)
 # app.config.from_object('config')
 
 app.secret_key="asdasd"
+# app.permanent_session_lifetime = timedelta(days=1)
+app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(days=1)
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", user_id=session['login_user'])
 
 @app.route("/hello")
 def hello_flask():

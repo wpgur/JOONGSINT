@@ -2,11 +2,11 @@ from flask import Flask, session, render_template, redirect, request, url_for, B
 import pymysql
 import os
  
-mysql_host = os.environ.get('MYSQL_HOST', 'mysql')
-mysql_port= int(os.environ.get('MYSQL_PORT', 3306))
+mysql_host = os.environ.get('MYSQL_HOST', '127.0.0.1')
+mysql_port= int(os.environ.get('MYSQL_PORT', 3308))
 mysql_user =  os.environ.get('MYSQL_USER', 'root')
-mysql_password = os.environ.get('MYSQL_PASSWORD', 'password')
-mysql_db = os.environ.get('MYSQL_DB', 'petclinic')
+mysql_password = os.environ.get('MYSQL_PASSWORD', '')
+mysql_db = os.environ.get('MYSQL_DB', 'joongsint')
 
 register_module = Blueprint("register_module", __name__)
 
@@ -25,11 +25,12 @@ def register_result():
 
         cursor = db.cursor()
 
-        cursor.execute("SELECT * FROM login_table WHERE id = %s", (id,))
+        cursor.execute("SELECT * FROM user WHERE id = %s", (id,))
         data = cursor.fetchone()
 
         if data is None:
-            cursor.execute("INSERT INTO login_table (id, pw) VALUES (%s, %s)", (id, pw))
+            cursor.execute("INSERT INTO user (id, pw) VALUES (%s, %s)", (id, pw))
+            cursor.execute("INSERT INTO user_detail (keyword, search_ID, search_domain, search_word, user_id) VALUES ('none','none','none','none', %s)", (id))
             db.commit()
             db.close()
             return render_template("register_success.html")
